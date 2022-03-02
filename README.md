@@ -1,1 +1,1 @@
-# misp-tip-of-the-day
+# MISP Tip of the Week
