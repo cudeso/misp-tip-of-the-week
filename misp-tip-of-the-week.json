@@ -12,6 +12,12 @@
         {
             "timestamp": "20220302",
             "category": "Administration",
+            "tags": ["usermanagement"],
+            "value": "Reset the password of a user via the CLI /var/www/MISP/app/Console/cake Password user@domain.cti Password1234"
+        },        
+        {
+            "timestamp": "20220302",
+            "category": "Administration",
             "tags": ["correlations", "performance"],
             "value": "Correlations aren’t cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex."
         }

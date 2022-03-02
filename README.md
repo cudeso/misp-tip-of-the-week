@@ -1,6 +1,8 @@
 # MISP Tip of the Week
 
-A collection of tips for using [MISP](https://www.misp-project.org/). Published via [BelgoMISP](https://twitter.com/belgomisp) and this repository. Available in MD and [JSON](https://raw.githubusercontent.com/cudeso/misp-tip-of-the-week/misp-tip-of-the-week.json). **(still testing, launch for 202204)**
+A collection of tips for using [MISP](https://www.misp-project.org/). Published via [BelgoMISP](https://twitter.com/belgomisp) (*todo*) and this repository. Available in MD and [JSON](https://raw.githubusercontent.com/cudeso/misp-tip-of-the-week/misp-tip-of-the-week.json). 
+
+**(still testing)**
 
 # Tips of the Week
 
@@ -8,6 +10,13 @@ A collection of tips for using [MISP](https://www.misp-project.org/). Published 
 20220302 **Administration** *workers* *jobs* 
 
 >You can get the number of pending jobs in the MISP workers via {misp_url}/servers/getWorkers .
+
+*** 
+
+
+20220302 **Administration** *usermanagement* 
+
+>Reset the password of a user via the CLI /var/www/MISP/app/Console/cake Password user@domain.cti Password1234
 
 *** 
 

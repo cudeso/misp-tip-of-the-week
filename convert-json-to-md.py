@@ -15,7 +15,9 @@ mdfile = "README.md"
 
 prenote= """# MISP Tip of the Week
 
-A collection of tips for using [MISP](https://www.misp-project.org/). Published via [BelgoMISP](https://twitter.com/belgomisp) and this repository. Available in MD and [JSON](https://raw.githubusercontent.com/cudeso/misp-tip-of-the-week/misp-tip-of-the-week.json). **(still testing, launch for 202204)**
+A collection of tips for using [MISP](https://www.misp-project.org/). Published via [BelgoMISP](https://twitter.com/belgomisp) (*todo*) and this repository. Available in MD and [JSON](https://raw.githubusercontent.com/cudeso/misp-tip-of-the-week/misp-tip-of-the-week.json). 
+
+**(still testing)**
 
 # Tips of the Week
 
