@@ -35,7 +35,7 @@ Each tip as an entry. Most recent entry is the first in the list.
 
 """
 
-if True: #try:
+try:
 
     f = open(jsonfile)
     data = json.load(f)
@@ -66,6 +66,6 @@ if True: #try:
     f_md.close()
 
         
-#except Exception as ex:
-#    print("could not open or parse json input file. Reason: %s" %str(ex))
-#    sys.exit(-2)
+except Exception as ex:
+    print("could not open or parse json input file. Reason: %s" %str(ex))
+    sys.exit(-2)
