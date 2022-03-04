@@ -7,18 +7,24 @@
             "timestamp": "20220302",
             "category": "Administration",
             "tags": ["workers", "jobs"],
+            "refs": [],
+            "screenshots": [],
             "value": "You can get the number of pending jobs in the MISP workers via {misp_url}/servers/getWorkers ."
         },
         {
             "timestamp": "20220302",
             "category": "Administration",
             "tags": ["usermanagement"],
+            "refs": [],
+            "screenshots": [],
             "value": "Reset the password of a user via the CLI /var/www/MISP/app/Console/cake Password user@domain.cti Password1234"
         },        
         {
             "timestamp": "20220302",
             "category": "Administration",
             "tags": ["correlations", "performance"],
+            "refs": [],
+            "screenshots": [],
             "value": "Correlations aren’t cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex."
         }
 

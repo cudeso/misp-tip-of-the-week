@@ -17,7 +17,8 @@ prenote= """# MISP Tip of the Week
 
 A collection of tips for using [MISP](https://www.misp-project.org/). Published via [BelgoMISP](https://twitter.com/belgomisp) (*todo*) and this repository. Available in MD and [JSON](https://raw.githubusercontent.com/cudeso/misp-tip-of-the-week/main/misp-tip-of-the-week.json). 
 
-**(still testing)**
+Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-tip-of-the-week/issues/new/choose) via a Github issue or do a PR to the JSON file.
+
 
 # Tips of the Week
 
@@ -27,10 +28,23 @@ postnote = """
 
 # JSON format
 
+```
+    {
+        "timestamp": "20220302",
+        "category": "Administration",
+        "tags": ["correlations", "performance"],
+        "refs": [ "https://www.misp-project.org/" ],
+        "screenshots": [ "https://raw.githubusercontent.com/MISP/misp-website/new/assets/assets/images/misp-small.png"],
+        "value": "tip"
+    }
+```
+
 Each tip as an entry. Most recent entry is the first in the list.
 * Timestamp: date in YYYYMMDD
 * Category: Administration, Threatintel, Misc
 * Tags: list of tags
+* Refs: list of external references
+* Screenshots: list of screenshots (put the files on Github)
 * Entry: text
 
 """
