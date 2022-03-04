@@ -12,6 +12,10 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
 >You can get the number of pending jobs in the MISP workers via {misp_url}/servers/getWorkers .
 
+ 
+
+[https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/](https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/)
+
 *** 
 
 
@@ -19,12 +23,20 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
 >Reset the password of a user via the CLI /var/www/MISP/app/Console/cake Password user@domain.cti Password1234
 
+ 
+
+
+
 *** 
 
 
 20220302 **Administration** *correlations* *performance* 
 
 >Correlations aren’t cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex.
+
+ 
+
+[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/)
 
 *** 
 

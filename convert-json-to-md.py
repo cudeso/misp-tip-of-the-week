@@ -61,6 +61,12 @@ try:
         ts = el["timestamp"]
         category = el["category"]
         entry = el["value"]
+        refs = ""
+        for t in el["refs"]:
+            refs = refs + "[{}]({})".format(t, t)
+        screenshots = ""
+        for t in el["screenshots"]:
+            screenshots = screenshots + "![]({})".format(t, t)            
         tags = ""
         for t in el["tags"]:
             tags = tags + "*{}* ".format(t)
@@ -70,9 +76,13 @@ try:
 
 >{}
 
+{} 
+
+{}
+
 *** 
 
-""".format(ts, category, tags, entry)
+""".format(ts, category, tags, entry, screenshots, refs)
         f_md.write(note)
 
     f_md.write(postnote)
