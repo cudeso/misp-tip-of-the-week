@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220401",
+            "category": "Misc",
+            "tags": ["web", "usage"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/161009689-e348da15-85a9-4091-ade5-fc379d424504.jpg" ],
+            "value": "You can change the list of columns in the event overview for cleaner output. For example, remove the 'clusters' and 'creator user' to get additional space to display the event details that are important to you. The changes are automatically stored in your user profile under \"event_index_hide_columns\"."
+        },        
+        {
             "timestamp": "20220302",
             "category": "Administration",
             "tags": ["workers", "jobs"],
@@ -25,7 +33,7 @@
             "tags": ["correlations", "performance"],
             "refs": [ "https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/" ],
             "screenshots": [],
-            "value": "Correlations aren’t cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex."
+            "value": "Correlations aren't cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex."
         }
 
     ]

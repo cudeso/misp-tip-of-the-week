@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220401 **Misc** *web* *usage* 
+
+>You can change the list of columns in the event overview for cleaner output. For example, remove the 'clusters' and 'creator user' to get additional space to display the event details that are important to you. The changes are automatically stored in your user profile under "event_index_hide_columns".
+
+![](https://user-images.githubusercontent.com/256028/161009689-e348da15-85a9-4091-ade5-fc379d424504.jpg) 
+
+
+
+*** 
+
+
 20220302 **Administration** *workers* *jobs* 
 
 >You can get the number of pending jobs in the MISP workers via {misp_url}/servers/getWorkers .
@@ -32,7 +43,7 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
 20220302 **Administration** *correlations* *performance* 
 
->Correlations aren’t cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex.
+>Correlations aren't cached, this means that they are requested (counted) every time when accessing the event index page. You can get a huge performance increase on the event index page by disabling MISP.showCorrelationsOnIndex.
 
  
 
