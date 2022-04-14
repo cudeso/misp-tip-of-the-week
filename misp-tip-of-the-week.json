@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220415",
+            "category": "Threatintel",
+            "tags": ["opsec"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/163488531-0e7bba7d-712d-40d1-86f2-ae94bacd2ffd.jpg" ],
+            "value": "Use the MISP Event Delegation feature to have events published by another organisations. This way you can guarantee the anonymity of the threat event author. First put the distribution of the event as \"your organisation only\" and then choose Delegate Publishing."
+        },        
+        {
             "timestamp": "20220408",
             "category": "Administration",
             "tags": ["usermanagement"],
