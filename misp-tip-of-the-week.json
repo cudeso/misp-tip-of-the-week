@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220422",
+            "category": "Threatintel",
+            "tags": ["taxonomy", "tlp", "classification"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/162378880-a747cd9f-85a0-40ee-b94e-276a96b9c0ed.jpg" ],
+            "value": "Make it mandatory for MISP event publishers to add a TLP designation to their events. Set the 'Required' checkbox under the TLP taxonomy in taxonomies/index."
+        },   
+        {
             "timestamp": "20220415",
             "category": "Threatintel",
             "tags": ["opsec"],

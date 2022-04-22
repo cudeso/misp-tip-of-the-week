@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220422 **Threatintel** *taxonomy* *tlp* *classification* 
+
+>Make it mandatory for MISP event publishers to add a TLP designation to their events. Set the 'Required' checkbox under the TLP taxonomy in taxonomies/index.
+
+![](https://user-images.githubusercontent.com/256028/162378880-a747cd9f-85a0-40ee-b94e-276a96b9c0ed.jpg) 
+
+
+
+*** 
+
+
 20220415 **Threatintel** *opsec* 
 
 >Use the MISP Event Delegation feature to have events published by another organisations. This way you can guarantee the anonymity of the threat event author. First put the distribution of the event as "your organisation only" and then choose Delegate Publishing.
