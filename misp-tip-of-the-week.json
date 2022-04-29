@@ -4,13 +4,21 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220429",
+            "category": "Threatintel",
+            "tags": ["scraping", "reports"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/165084117-4d2ed631-6e1c-430c-ba1b-64e262387cd5.jpg" ],
+            "value": "Did you know you can use MISP as a simple web scraper? Automatically convert HTML from a remote website into Markdown and extract useful threat tactics, techniques and indicators. Enable module 'html_to_markdown' and create MISP reports from a URL. Or do it via the API (see pseudo-code)."
+        },
+        {
             "timestamp": "20220422",
             "category": "Threatintel",
             "tags": ["taxonomy", "tlp", "classification"],
             "refs": [ ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/162378880-a747cd9f-85a0-40ee-b94e-276a96b9c0ed.jpg" ],
             "value": "Make it mandatory for MISP event publishers to add a TLP designation to their events. Set the 'Required' checkbox under the TLP taxonomy in taxonomies/index."
-        },   
+        },
         {
             "timestamp": "20220415",
             "category": "Threatintel",
@@ -18,7 +26,7 @@
             "refs": [ ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/163488531-0e7bba7d-712d-40d1-86f2-ae94bacd2ffd.jpg" ],
             "value": "Use the MISP Event Delegation feature to have events published by another organisations. This way you can guarantee the anonymity of the threat event author. First put the distribution of the event as \"your organisation only\" and then choose Delegate Publishing."
-        },        
+        },
         {
             "timestamp": "20220408",
             "category": "Administration",
