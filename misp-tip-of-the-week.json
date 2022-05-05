@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220505",
+            "category": "Threatintel",
+            "tags": ["feeds"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/166990384-35e28137-f70a-461e-9fd2-fd40cf35b5ef.jpg"],
+            "value": "You can use MISP feeds without having to import the events in your instance. Use them as 'lookup' to check if there is OSINT on an indicator. BONUS: create a custom feed from your ticketing system and lookup incident data/occurrences."
+        },
+        {
             "timestamp": "20220429",
             "category": "Threatintel",
             "tags": ["scraping", "reports"],

@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220505 **Threatintel** *feeds* 
+
+>You can use MISP feeds without having to import the events in your instance. Use them as 'lookup' to check if there is OSINT on an indicator. BONUS: create a custom feed from your ticketing system and lookup incident data/occurrences.
+
+![](https://user-images.githubusercontent.com/256028/166990384-35e28137-f70a-461e-9fd2-fd40cf35b5ef.jpg) 
+
+
+
+*** 
+
+
 20220429 **Threatintel** *scraping* *reports* 
 
 >Did you know you can use MISP as a simple web scraper? Automatically convert HTML from a remote website into Markdown and extract useful threat tactics, techniques and indicators. Enable module 'html_to_markdown' and create MISP reports from a URL. Or do it via the API (see pseudo-code).
