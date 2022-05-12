@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220512 **Administration** *correlation* *database* *performance* 
+
+>Regularly remove orphaned attributes or correlations via the diagnostics page or remove orphaned correlations via the CLI 'cake admin removeOrphanedCorrelations'. And don't forget to run 'optimize table correlations' in the mysql console.
+
+![](https://user-images.githubusercontent.com/256028/167998212-37a57623-66c2-4803-8f46-013860bf41e8.jpg)![](https://user-images.githubusercontent.com/256028/167999051-7f0e1f7b-82e3-49d0-a51b-5b290cda33d9.jpg) 
+
+[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/)
+
+*** 
+
+
 20220505 **Threatintel** *feeds* 
 
 >You can use MISP feeds without having to import the events in your instance. Use them as 'lookup' to check if there is OSINT on an indicator. BONUS: create a custom feed from your ticketing system and lookup incident data/occurrences.
