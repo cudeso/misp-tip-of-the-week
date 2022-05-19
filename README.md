@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220520 **Administration** *sharing* *distribution* *usermanagement* 
+
+>Use sharing groups to setup re-usable distribution lists for sharing threat events with different communities ('multi-tenancy'-ish). Watch a video https://vimeo.com/710012285 on basic usage of sharing groups.
+
+ 
+
+[https://vimeo.com/710012285](https://vimeo.com/710012285)
+
+*** 
+
+
 20220512 **Administration** *correlation* *database* *performance* 
 
 >Regularly remove orphaned attributes or correlations via the diagnostics page or remove orphaned correlations via the CLI 'cake admin removeOrphanedCorrelations'. And don't forget to run 'optimize table correlations' in the mysql console.

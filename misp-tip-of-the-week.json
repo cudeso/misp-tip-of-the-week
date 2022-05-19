@@ -4,13 +4,20 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220520",
+            "category": "Administration",
+            "tags": ["sharing", "distribution", "usermanagement"],
+            "refs": [ "https://vimeo.com/710012285" ],
+            "screenshots": [ ],
+            "value": "Use sharing groups to setup re-usable distribution lists for sharing threat events with different communities ('multi-tenancy'-ish). Watch a video https://vimeo.com/710012285 on basic usage of sharing groups."
+        },        {
             "timestamp": "20220512",
             "category": "Administration",
             "tags": ["correlation", "database", "performance"],
             "refs": [ "https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/" ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/167998212-37a57623-66c2-4803-8f46-013860bf41e8.jpg", "https://user-images.githubusercontent.com/256028/167999051-7f0e1f7b-82e3-49d0-a51b-5b290cda33d9.jpg" ],
             "value": "Regularly remove orphaned attributes or correlations via the diagnostics page or remove orphaned correlations via the CLI 'cake admin removeOrphanedCorrelations'. And don't forget to run 'optimize table correlations' in the mysql console."
-        },        
+        },
         {
             "timestamp": "20220505",
             "category": "Threatintel",
