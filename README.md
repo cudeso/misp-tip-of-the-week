@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220527 **Administration** *logging* *auditing* 
+
+>The API /admin/logs supports different models that can be used for audit reports. Track the latest changes on events, attributes, authentication actions and password resets and alert on unusual behaviour. Supported models include Attribute, Event, Role, Server, Taxonomy, User and many more.
+
+![](https://user-images.githubusercontent.com/256028/166974608-2045a847-f752-4b42-bc4c-e0503719386e.jpg)![](https://user-images.githubusercontent.com/256028/170514624-b93c74d1-31ec-4b0c-a787-133d3ac64910.jpg)![](https://user-images.githubusercontent.com/256028/170516230-8f6ddd70-b438-4f60-afc9-2708314eb09f.jpg) 
+
+
+
+*** 
+
+
 20220520 **Administration** *sharing* *distribution* *usermanagement* 
 
 >Use sharing groups to setup re-usable distribution lists for sharing threat events with different communities ('multi-tenancy'-ish). Watch a video https://vimeo.com/710012285 on basic usage of sharing groups.
