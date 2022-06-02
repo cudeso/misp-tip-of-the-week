@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220603 **Administration** *usermanagement* *organisations* 
+
+>You can combine ('merge') an organisation with another and basically transfer all the users and data from one organisation to another. First edit the organisation, and then choose Merge in the left menu.
+
+![](https://user-images.githubusercontent.com/256028/171633007-e786e755-cb54-4dba-ad44-0fc43b8d06e2.jpg)![](https://user-images.githubusercontent.com/256028/171632946-63c9cab6-498c-46ab-8fad-3507c3001089.jpg) 
+
+
+
+*** 
+
+
 20220527 **Administration** *logging* *auditing* 
 
 >The API /admin/logs supports different models that can be used for audit reports. Track the latest changes on events, attributes, authentication actions and password resets and alert on unusual behaviour. Supported models include Attribute, Event, Role, Server, Taxonomy, User and many more.
