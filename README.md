@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220610 **Threatintel** *automation* *pymisp* *procedures* 
+
+>Document your CTI operational procedures with Jupyter notebooks and PyMISP. Use the examples at https://github.com/cudeso/misp-tip-of-the-week/tree/main/originals and https://github.com/MISP/PyMISP/tree/main/docs/tutorial to get started.
+
+![](https://user-images.githubusercontent.com/256028/172591533-14aa943d-ea95-4417-b6c8-3b7a3f70975b.jpg)![](https://user-images.githubusercontent.com/256028/172591539-260069a0-4308-4330-9ba2-f949c3c74efb.jpg)![](https://user-images.githubusercontent.com/256028/172591544-290f472b-2ece-49ad-af12-2009e5074145.jpg)![](https://user-images.githubusercontent.com/256028/172591550-e184b186-308b-42f8-9e88-532de7e4fd53.jpg) 
+
+
+
+*** 
+
+
 20220603 **Administration** *usermanagement* *organisations* 
 
 >You can combine ('merge') an organisation with another and basically transfer all the users and data from one organisation to another. First edit the organisation, and then choose Merge in the left menu.
