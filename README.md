@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220617 **Administration** *backups* *bcp* 
+
+>Backups are important! Use the built-in MISP backup script (tools/misp-backup/misp-backup.sh) to create backups (or snapshots). Backups include data and config and can be restored over an existing MISP install.
+
+![](https://user-images.githubusercontent.com/256028/166995861-7bb25fe8-8966-42af-98ec-3be2d2dd159e.jpg)![](https://user-images.githubusercontent.com/256028/166995886-f1f18267-17b5-49b3-86bf-d2be1cfe0df3.jpg) 
+
+
+
+*** 
+
+
 20220610 **Threatintel** *automation* *pymisp* *procedures* 
 
 >Document your CTI operational procedures with Jupyter notebooks and PyMISP. Use the examples at https://github.com/cudeso/misp-tip-of-the-week/tree/main/originals and https://github.com/MISP/PyMISP/tree/main/docs/tutorial to get started.
