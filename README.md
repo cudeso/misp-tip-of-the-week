@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220624 **Threatintel** *contextualisation* *taxonomy* *tags* 
+
+>Instead of global tags use local tags from a private taxonomy to contextualise events with the specifics of your company environment. These local tags are stripped from events when shared (synced) with external communities.
+
+![](https://user-images.githubusercontent.com/256028/175109726-e257efad-6156-48d3-8c5a-4dbb7af17b25.jpg) 
+
+
+
+*** 
+
+
 20220617 **Administration** *backups* *bcp* 
 
 >Backups are important! Use the built-in MISP backup script (tools/misp-backup/misp-backup.sh) to create backups (or snapshots). Backups include data and config and can be restored over an existing MISP install.

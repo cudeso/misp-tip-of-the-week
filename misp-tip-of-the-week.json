@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220624",
+            "category": "Threatintel",
+            "tags": ["contextualisation", "taxonomy", "tags"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/175109726-e257efad-6156-48d3-8c5a-4dbb7af17b25.jpg" ],
+            "value": "Instead of global tags use local tags from a private taxonomy to contextualise events with the specifics of your company environment. These local tags are stripped from events when shared (synced) with external communities."
+        },
+        {
             "timestamp": "20220617",
             "category": "Administration",
             "tags": ["backups", "bcp"],
