@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220701",
+            "category": "Administration",
+            "tags": ["stix", "taxii", "conversion"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/176549080-f822d0dc-22aa-48fa-a694-d6aaec005105.jpg" ],
+            "value": "You can use the STIX 2 MISP conversion script (app/files/scripts/stix2misp.py or https://github.com/MISP/MISP/blob/2.4/app/files/scripts/stix2misp.py) outside the MISP web UI to manually convert STIX files to (MISP) JSON format. Output files are written in the tmp directory."
+        },        
+        {
             "timestamp": "20220624",
             "category": "Threatintel",
             "tags": ["contextualisation", "taxonomy", "tags"],

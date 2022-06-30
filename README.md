@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220701 **Administration** *stix* *taxii* *conversion* 
+
+>You can use the STIX 2 MISP conversion script (app/files/scripts/stix2misp.py or https://github.com/MISP/MISP/blob/2.4/app/files/scripts/stix2misp.py) outside the MISP web UI to manually convert STIX files to (MISP) JSON format. Output files are written in the tmp directory.
+
+![](https://user-images.githubusercontent.com/256028/176549080-f822d0dc-22aa-48fa-a694-d6aaec005105.jpg) 
+
+
+
+*** 
+
+
 20220624 **Threatintel** *contextualisation* *taxonomy* *tags* 
 
 >Instead of global tags use local tags from a private taxonomy to contextualise events with the specifics of your company environment. These local tags are stripped from events when shared (synced) with external communities.
