@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220708 **Administration** *optimisation* *usermanagement* 
+
+>It's a good idea to assign additional MISP system resources to scripts that collect large sets of data (or for users that do a lot of data crunching). Create a dedicated user role and set the memory limit and execution time.
+
+![](https://user-images.githubusercontent.com/256028/175073724-25b93e43-96bb-40c7-98e2-187726a7eb0e.jpg) 
+
+
+
+*** 
+
+
 20220701 **Administration** *stix* *taxii* *conversion* 
 
 >You can use the STIX 2 MISP conversion script (app/files/scripts/stix2misp.py or https://github.com/MISP/MISP/blob/2.4/app/files/scripts/stix2misp.py) outside the MISP web UI to manually convert STIX files to (MISP) JSON format. Output files are written in the tmp directory.
