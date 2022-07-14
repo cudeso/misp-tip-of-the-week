@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220715 **Threatintel** *quality* *indicators* *attributes* 
+
+>Quality is more important than quantity in threat intelligence. MISP warns you if you add redundant or similar information to threat events. This works for both objects and attributes.
+
+![](https://user-images.githubusercontent.com/256028/178993140-ffaad442-b928-4147-856f-48dbeae529be.jpg)![](https://user-images.githubusercontent.com/256028/178993281-fc316a34-c071-4da7-b60b-9ba5121b31e5.jpg)![](https://user-images.githubusercontent.com/256028/178993286-152957d9-188e-478a-b95b-e9a08622f103.jpg) 
+
+
+
+*** 
+
+
 20220708 **Administration** *optimisation* *usermanagement* 
 
 >It's a good idea to assign additional MISP system resources to scripts that collect large sets of data (or for users that do a lot of data crunching). Create a dedicated user role and set the memory limit and execution time.
