@@ -4,6 +4,18 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220722",
+            "category": "Administration",
+            "tags": ["workers", "backgroundjobs"],
+            "refs": [ "https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/MISP-background-jobs-tips.md",
+                      "https://github.com/MISP/MISP/blob/2.4/docs/background-jobs-migration-guide.md" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/180070173-72af9081-09d2-48a9-b2ae-e8f9ae860dbb.jpg",
+                             "https://user-images.githubusercontent.com/256028/180070182-90de5c9b-d216-40fa-8f5c-54890ea08540.jpg",
+                             "https://user-images.githubusercontent.com/256028/180070157-b3fec255-33e2-4d39-b626-97d730b27487.jpg",
+                             "https://user-images.githubusercontent.com/256028/180072428-965f1d6c-6321-471d-849e-ffe3b6cd8729.jpg" ],
+            "value": "If you have not already done so, now is a good time to migrate the MISP background jobs backend to supervisord (CakeResque is no longer maintained). Use the migration guide and some of the tips to get started."
+        },        
+        {
             "timestamp": "20220715",
             "category": "Threatintel",
             "tags": ["quality", "indicators", "attributes"],
@@ -12,7 +24,7 @@
                              "https://user-images.githubusercontent.com/256028/178993281-fc316a34-c071-4da7-b60b-9ba5121b31e5.jpg",
                              "https://user-images.githubusercontent.com/256028/178993286-152957d9-188e-478a-b95b-e9a08622f103.jpg" ],
             "value": "Quality is more important than quantity in threat intelligence. MISP warns you if you add redundant or similar information to threat events. This works for both objects and attributes."
-        },        
+        },
         {
             "timestamp": "20220708",
             "category": "Administration",

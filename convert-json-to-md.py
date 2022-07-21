@@ -63,7 +63,7 @@ try:
         entry = el["value"]
         refs = ""
         for t in el["refs"]:
-            refs = refs + "[{}]({})".format(t, t)
+            refs = refs + "[{}]({}) \n".format(t, t)
         screenshots = ""
         for t in el["screenshots"]:
             screenshots = screenshots + "![]({})".format(t, t)            

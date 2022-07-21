@@ -8,6 +8,19 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220722 **Administration** *workers* *backgroundjobs* 
+
+>If you have not already done so, now is a good time to migrate the MISP background jobs backend to supervisord (CakeResque is no longer maintained). Use the migration guide and some of the tips to get started.
+
+![](https://user-images.githubusercontent.com/256028/180070173-72af9081-09d2-48a9-b2ae-e8f9ae860dbb.jpg)![](https://user-images.githubusercontent.com/256028/180070182-90de5c9b-d216-40fa-8f5c-54890ea08540.jpg)![](https://user-images.githubusercontent.com/256028/180070157-b3fec255-33e2-4d39-b626-97d730b27487.jpg)![](https://user-images.githubusercontent.com/256028/180072428-965f1d6c-6321-471d-849e-ffe3b6cd8729.jpg) 
+
+[https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/MISP-background-jobs-tips.md](https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/MISP-background-jobs-tips.md) 
+[https://github.com/MISP/MISP/blob/2.4/docs/background-jobs-migration-guide.md](https://github.com/MISP/MISP/blob/2.4/docs/background-jobs-migration-guide.md) 
+
+
+*** 
+
+
 20220715 **Threatintel** *quality* *indicators* *attributes* 
 
 >Quality is more important than quantity in threat intelligence. MISP warns you if you add redundant or similar information to threat events. This works for both objects and attributes.
@@ -102,7 +115,8 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
  
 
-[https://vimeo.com/710012285](https://vimeo.com/710012285)
+[https://vimeo.com/710012285](https://vimeo.com/710012285) 
+
 
 *** 
 
@@ -113,7 +127,8 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
 ![](https://user-images.githubusercontent.com/256028/167998212-37a57623-66c2-4803-8f46-013860bf41e8.jpg)![](https://user-images.githubusercontent.com/256028/167999051-7f0e1f7b-82e3-49d0-a51b-5b290cda33d9.jpg) 
 
-[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/)
+[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/) 
+
 
 *** 
 
@@ -190,7 +205,8 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
  
 
-[https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/](https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/)
+[https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/](https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/) 
+
 
 *** 
 
@@ -212,7 +228,8 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 
  
 
-[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/)
+[https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/](https://www.vanimpe.eu/2021/03/25/staying-in-control-of-misp-correlations/) 
+
 
 *** 
 
