@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220729 **Misc** *web* *usage* *customisation* 
+
+>Bored with the looks and feel of the MISP interface? You can customise it easily with a bootstrap theme from https://bootswatch.com/2/ (or build your own). Copy the CSS to 'app/webroot/css/' and set MISP.custom_css. Share your art-work!
+
+![](https://user-images.githubusercontent.com/256028/180954083-54f5802d-7927-4235-b2fa-08720a6d94bf.jpg) 
+
+[]() 
+
+
+*** 
+
+
 20220722 **Administration** *workers* *backgroundjobs* 
 
 >If you have not already done so, now is a good time to migrate the MISP background jobs backend to supervisord (CakeResque is no longer maintained). Use the migration guide and some of the tips to get started.

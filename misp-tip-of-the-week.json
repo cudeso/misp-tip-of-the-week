@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220729",
+            "category": "Misc",
+            "tags": ["web", "usage", "customisation"],
+            "refs": [ "" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/180954083-54f5802d-7927-4235-b2fa-08720a6d94bf.jpg" ],
+            "value": "Bored with the looks and feel of the MISP interface? You can customise it easily with a bootstrap theme from https://bootswatch.com/2/ (or build your own). Copy the CSS to 'app/webroot/css/' and set MISP.custom_css. Share your art-work!"
+        },        
+        {
             "timestamp": "20220722",
             "category": "Administration",
             "tags": ["workers", "backgroundjobs"],
@@ -14,7 +22,7 @@
                              "https://user-images.githubusercontent.com/256028/180070157-b3fec255-33e2-4d39-b626-97d730b27487.jpg",
                              "https://user-images.githubusercontent.com/256028/180072428-965f1d6c-6321-471d-849e-ffe3b6cd8729.jpg" ],
             "value": "If you have not already done so, now is a good time to migrate the MISP background jobs backend to supervisord (CakeResque is no longer maintained). Use the migration guide and some of the tips to get started."
-        },        
+        },
         {
             "timestamp": "20220715",
             "category": "Threatintel",
