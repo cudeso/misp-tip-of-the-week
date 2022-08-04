@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220805 **Administration** *samples* *malware* *php* 
+
+>If you store (large) malware samples in MISP and run into '500: Internal Server Error' then it's time to increase the file upload limits in PHP. Change upload_max_filesize and post_max_size and restart Apache.
+
+![](https://user-images.githubusercontent.com/256028/175075817-44f8bef7-0c4f-45de-8c6c-b25b06ab16ec.jpg) 
+
+[]() 
+
+
+*** 
+
+
 20220729 **Misc** *web* *usage* *customisation* 
 
 >Bored with the looks and feel of the MISP interface? You can customise it easily with a bootstrap theme from https://bootswatch.com/2/ (or build your own). Copy the CSS to 'app/webroot/css/' and set MISP.custom_css. Share your art-work!
