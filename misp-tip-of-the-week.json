@@ -4,13 +4,21 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220812",
+            "category": "Administration",
+            "tags": ["authentication", "usermanagement", "password"],
+            "refs": [ "https://regexr.com/6oren" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/176716402-dfcd81da-d40c-4a41-9ed0-92435033a454.jpg" ],
+            "value": "You can set the minimum password length 'Security.password_policy_length' (default 12) and complexity 'Security.password_policy_complexity' (https://regexr.com/6oren) via Server Settings & Maintenance>Security Settings."
+        },        
+        {
             "timestamp": "20220805",
             "category": "Administration",
             "tags": ["samples", "malware", "php"],
             "refs": [ "" ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/175075817-44f8bef7-0c4f-45de-8c6c-b25b06ab16ec.jpg" ],
             "value": "If you store (large) malware samples in MISP and run into '500: Internal Server Error' then it's time to increase the file upload limits in PHP. Change upload_max_filesize and post_max_size and restart Apache."
-        },        
+        },
         {
             "timestamp": "20220729",
             "category": "Misc",

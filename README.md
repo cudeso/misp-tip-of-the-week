@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220812 **Administration** *authentication* *usermanagement* *password* 
+
+>You can set the minimum password length 'Security.password_policy_length' (default 12) and complexity 'Security.password_policy_complexity' (https://regexr.com/6oren) via Server Settings & Maintenance>Security Settings.
+
+![](https://user-images.githubusercontent.com/256028/176716402-dfcd81da-d40c-4a41-9ed0-92435033a454.jpg) 
+
+[https://regexr.com/6oren](https://regexr.com/6oren) 
+
+
+*** 
+
+
 20220805 **Administration** *samples* *malware* *php* 
 
 >If you store (large) malware samples in MISP and run into '500: Internal Server Error' then it's time to increase the file upload limits in PHP. Change upload_max_filesize and post_max_size and restart Apache.
