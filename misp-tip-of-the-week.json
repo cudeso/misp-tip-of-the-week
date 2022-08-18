@@ -4,13 +4,24 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220819",
+            "category": "Threatintel",
+            "tags": ["correlations", "context"],
+            "refs": [ "https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_add_correlation_exclusion.ipynb" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/185342291-0e00de8d-f440-4bfb-bd17-c5e8e52ea61f.png",
+                             "https://user-images.githubusercontent.com/256028/185340370-fb9541b8-58a3-4a25-8bbb-ce79995f55b7.png",
+                             "https://user-images.githubusercontent.com/256028/185340390-73d2e1fd-d6e0-4b05-8992-2af76e5797c0.png",
+                             "https://user-images.githubusercontent.com/256028/185340393-864b5b3c-7635-47fd-87fa-67d47ff4fca6.png" ],
+            "value": "Use correlation exclusions (Administration > Top correlations) to avoid unnecessary or irrelevant threat data correlations. Have a look at the Jupyter notebook for an example API usage."
+        },        
+        {
             "timestamp": "20220812",
             "category": "Administration",
             "tags": ["authentication", "usermanagement", "password"],
             "refs": [ "https://regexr.com/6oren" ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/176716402-dfcd81da-d40c-4a41-9ed0-92435033a454.jpg" ],
             "value": "You can set the minimum password length 'Security.password_policy_length' (default 12) and complexity 'Security.password_policy_complexity' (https://regexr.com/6oren) via Server Settings & Maintenance>Security Settings."
-        },        
+        },
         {
             "timestamp": "20220805",
             "category": "Administration",

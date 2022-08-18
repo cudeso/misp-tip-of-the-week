@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220819 **Threatintel** *correlations* *context* 
+
+>Use correlation exclusions (Administration > Top correlations) to avoid unnecessary or irrelevant threat data correlations. Have a look at the Jupyter notebook for an example API usage.
+
+![](https://user-images.githubusercontent.com/256028/185342291-0e00de8d-f440-4bfb-bd17-c5e8e52ea61f.png)![](https://user-images.githubusercontent.com/256028/185340370-fb9541b8-58a3-4a25-8bbb-ce79995f55b7.png)![](https://user-images.githubusercontent.com/256028/185340390-73d2e1fd-d6e0-4b05-8992-2af76e5797c0.png)![](https://user-images.githubusercontent.com/256028/185340393-864b5b3c-7635-47fd-87fa-67d47ff4fca6.png) 
+
+[https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_add_correlation_exclusion.ipynb](https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_add_correlation_exclusion.ipynb) 
+
+
+*** 
+
+
 20220812 **Administration** *authentication* *usermanagement* *password* 
 
 >You can set the minimum password length 'Security.password_policy_length' (default 12) and complexity 'Security.password_policy_complexity' (https://regexr.com/6oren) via Server Settings & Maintenance>Security Settings.
