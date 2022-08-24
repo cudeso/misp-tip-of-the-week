@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220826",
+            "category": "Threatintel",
+            "tags": ["pivoting", "context"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/185485314-7063afb9-581d-4215-a859-175e45e849e8.png",
+                             "https://user-images.githubusercontent.com/256028/185485328-bb87f405-dc50-4141-b3cf-42f2e56c9632.png" ],
+            "value": "The 'Event Graph' helps analysts in understanding details of an event by visually representing attributes in a grouped tree. Make sure to apply filters for events with a lot of attributes."
+        },        
+        {
             "timestamp": "20220819",
             "category": "Threatintel",
             "tags": ["correlations", "context"],
@@ -13,7 +22,7 @@
                              "https://user-images.githubusercontent.com/256028/185340390-73d2e1fd-d6e0-4b05-8992-2af76e5797c0.png",
                              "https://user-images.githubusercontent.com/256028/185340393-864b5b3c-7635-47fd-87fa-67d47ff4fca6.png" ],
             "value": "Use correlation exclusions (Administration > Top correlations) to avoid unnecessary or irrelevant threat data correlations. Have a look at the Jupyter notebook for an example API usage."
-        },        
+        },
         {
             "timestamp": "20220812",
             "category": "Administration",

@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220826 **Threatintel** *pivoting* *context* 
+
+>The 'Event Graph' helps analysts in understanding details of an event by visually representing attributes in a grouped tree. Make sure to apply filters for events with a lot of attributes.
+
+![](https://user-images.githubusercontent.com/256028/185485314-7063afb9-581d-4215-a859-175e45e849e8.png)![](https://user-images.githubusercontent.com/256028/185485328-bb87f405-dc50-4141-b3cf-42f2e56c9632.png) 
+
+
+
+*** 
+
+
 20220819 **Threatintel** *correlations* *context* 
 
 >Use correlation exclusions (Administration > Top correlations) to avoid unnecessary or irrelevant threat data correlations. Have a look at the Jupyter notebook for an example API usage.
