@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220902",
+            "category": "Administration",
+            "tags": ["notification", "template"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/185491172-97a7818a-3cff-4049-956d-d4110cb9f803.png",
+                             "https://user-images.githubusercontent.com/256028/185491176-4a04d5bc-7743-4e4b-9002-eaeec5941085.png" ],
+            "value": "You can change the event notification e-mail template by dropping a custom 'alert.ctp' in 'app/View/Emails/text/Custom'. Use the default template as inspiration."
+        },        
+        {
             "timestamp": "20220826",
             "category": "Threatintel",
             "tags": ["pivoting", "context"],
@@ -11,7 +20,7 @@
             "screenshots": [ "https://user-images.githubusercontent.com/256028/185485314-7063afb9-581d-4215-a859-175e45e849e8.png",
                              "https://user-images.githubusercontent.com/256028/185485328-bb87f405-dc50-4141-b3cf-42f2e56c9632.png" ],
             "value": "The 'Event Graph' helps analysts in understanding details of an event by visually representing attributes in a grouped tree. Make sure to apply filters for events with a lot of attributes."
-        },        
+        }, 
         {
             "timestamp": "20220819",
             "category": "Threatintel",

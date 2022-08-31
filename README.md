@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220902 **Administration** *notification* *template* 
+
+>You can change the event notification e-mail template by dropping a custom 'alert.ctp' in 'app/View/Emails/text/Custom'. Use the default template as inspiration.
+
+![](https://user-images.githubusercontent.com/256028/185491172-97a7818a-3cff-4049-956d-d4110cb9f803.png)![](https://user-images.githubusercontent.com/256028/185491176-4a04d5bc-7743-4e4b-9002-eaeec5941085.png) 
+
+
+
+*** 
+
+
 20220826 **Threatintel** *pivoting* *context* 
 
 >The 'Event Graph' helps analysts in understanding details of an event by visually representing attributes in a grouped tree. Make sure to apply filters for events with a lot of attributes.
