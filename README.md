@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220909 **Administration** *workers* *monitoring* 
+
+>Monitor the status of background workers via 'app/Console/cake Admin getWorkers' or an API request to 'servers/getWorkers'. Use Cacti (https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/) to track the number of jobs in the worker queues.
+
+![](https://user-images.githubusercontent.com/256028/185498557-3fdc0b5d-98de-42c5-8749-540ab1fbdd6a.png)![](https://user-images.githubusercontent.com/256028/176754729-ce2444e4-0536-4b4a-802b-c9cee91b4112.jpg) 
+
+[https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/](https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/) 
+
+
+*** 
+
+
 20220902 **Administration** *notification* *template* 
 
 >You can change the event notification e-mail template by dropping a custom 'alert.ctp' in 'app/View/Emails/text/Custom'. Use the default template as inspiration.

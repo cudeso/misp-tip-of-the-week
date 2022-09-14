@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220909",
+            "category": "Administration",
+            "tags": ["workers", "monitoring"],
+            "refs": [ "https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/185498557-3fdc0b5d-98de-42c5-8749-540ab1fbdd6a.png",
+                             "https://user-images.githubusercontent.com/256028/176754729-ce2444e4-0536-4b4a-802b-c9cee91b4112.jpg" ],
+            "value": "Monitor the status of background workers via 'app/Console/cake Admin getWorkers' or an API request to 'servers/getWorkers'. Use Cacti (https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/) to track the number of jobs in the worker queues."
+        },        
+        {
             "timestamp": "20220902",
             "category": "Administration",
             "tags": ["notification", "template"],
