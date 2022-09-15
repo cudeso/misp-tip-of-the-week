@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220916 **Administration** *security* *privacy* 
+
+>Enhance the security of your MISP platform by enabling Content Security Policy (CSP) support and then further configure the policy via the Security.csp setting.
+
+![](https://user-images.githubusercontent.com/256028/190467762-102d26b9-7036-436b-b9ad-d11353232a49.png)![](https://user-images.githubusercontent.com/256028/190468001-5a0d2bf1-9189-491b-85d5-2b90468c3ebc.png)![](https://user-images.githubusercontent.com/256028/190469261-04a31280-0cea-4501-ad91-627181b8d582.png) 
+
+[https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP) 
+
+
+*** 
+
+
 20220909 **Administration** *workers* *monitoring* 
 
 >Monitor the status of background workers via 'app/Console/cake Admin getWorkers' or an API request to 'servers/getWorkers'. Use Cacti (https://www.misp-project.org/2020/08/22/MISP-Monitoring-with-Cacti.html/) to track the number of jobs in the worker queues.
