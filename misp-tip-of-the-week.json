@@ -4,6 +4,16 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220923",
+            "category": "Threatintel",
+            "tags": ["contextualisation", "taxonomy"],
+            "refs": [ "https://www.circl.lu/doc/misp/taxonomy/#adding-a-private-taxonomy" ],
+            "screenshots": [    "https://user-images.githubusercontent.com/256028/191695060-9d93acf9-6343-485c-a8a4-de9404c6a9be.png",
+                                "https://user-images.githubusercontent.com/256028/191697121-c496bea3-b656-4d32-b134-a05c284182f6.png",
+                                "https://user-images.githubusercontent.com/256028/191698588-59194109-8e43-4ca6-ae21-fe841415d83e.png",
+                                "https://user-images.githubusercontent.com/256028/191698789-4ede81d3-952c-422e-9945-d99eb7786943.png" ],
+            "value": "Use a private taxonomy to describe internal sources, (risk) classifications or workflows. Taxonomies are simple JSON files in 'app/files/taxonomies/<taxonomy>/machinetag.json'. Then 'Update taxonomies' and enable the required tags."
+        },        {
             "timestamp": "20220916",
             "category": "Administration",
             "tags": ["security", "privacy"],
@@ -12,7 +22,7 @@
                              "https://user-images.githubusercontent.com/256028/190468001-5a0d2bf1-9189-491b-85d5-2b90468c3ebc.png",
                              "https://user-images.githubusercontent.com/256028/190469261-04a31280-0cea-4501-ad91-627181b8d582.png" ],
             "value": "Enhance the security of your MISP platform by enabling Content Security Policy (CSP) support and then further configure the policy via the Security.csp setting."
-        },        
+        },
         {
             "timestamp": "20220909",
             "category": "Administration",

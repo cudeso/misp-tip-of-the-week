@@ -1,0 +1,47 @@
+{
+    "namespace": "misp-training",
+    "expanded": "MISP training taxonomy",
+    "description": "A taxonomy to be used during a MISP training",
+    "version": 3,
+    "refs": [
+      "https://www.internalsharepoint.CORP.INT/CTI/classification"
+    ],
+    "predicates": [
+      {
+        "value": "affected-assets",
+        "expanded": "Assets affected by the threat"
+      },
+      {
+        "value": "internal-source",
+        "expanded": "The department that provided the information."
+      }      
+    ],
+    "values": [
+      {
+        "predicate": "affected-assets",
+        "entry": [
+          {
+            "value": "cj",
+            "expanded": "Crown jewels"
+          },
+          {
+            "value": "p1",
+            "expanded": "Primary assets"
+          }
+        ]
+      },
+      {
+        "predicate": "internal-source",
+        "entry": [
+          {
+            "value": "CDD-Risk",
+            "expanded": "Risk department"
+          },
+          {
+            "value": "CLD-Legal",
+            "expanded": "Legal department"
+          }
+        ]
+      }
+    ]
+  }

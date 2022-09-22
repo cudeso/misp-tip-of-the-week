@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220923 **Threatintel** *contextualisation* *taxonomy* 
+
+>Use a private taxonomy to describe internal sources, (risk) classifications or workflows. Taxonomies are simple JSON files in 'app/files/taxonomies/<taxonomy>/machinetag.json'. Then 'Update taxonomies' and enable the required tags.
+
+![](https://user-images.githubusercontent.com/256028/191695060-9d93acf9-6343-485c-a8a4-de9404c6a9be.png)![](https://user-images.githubusercontent.com/256028/191697121-c496bea3-b656-4d32-b134-a05c284182f6.png)![](https://user-images.githubusercontent.com/256028/191698588-59194109-8e43-4ca6-ae21-fe841415d83e.png)![](https://user-images.githubusercontent.com/256028/191698789-4ede81d3-952c-422e-9945-d99eb7786943.png) 
+
+[https://www.circl.lu/doc/misp/taxonomy/#adding-a-private-taxonomy](https://www.circl.lu/doc/misp/taxonomy/#adding-a-private-taxonomy) 
+
+
+*** 
+
+
 20220916 **Administration** *security* *privacy* 
 
 >Enhance the security of your MISP platform by enabling Content Security Policy (CSP) support and then further configure the policy via the Security.csp setting.
