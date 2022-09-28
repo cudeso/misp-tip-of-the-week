@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20220930",
+            "category": "Threatintel",
+            "tags": ["enrichment", "modules"],
+            "refs": [ "https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_modules.ipynb" ],
+            "screenshots": [    "https://user-images.githubusercontent.com/256028/192039631-fc60fdb0-f276-4398-be26-e7ef6d3b07f9.png",
+                                "https://user-images.githubusercontent.com/256028/192039637-7f4fb3b8-0a2c-418b-a127-738e0e2cdb97.png" ],
+            "value": "The MISP modules can also be used outside MISP. Query the module server for its enabled modules or immediately start using a MISP module with one simple request."
+        },        
+        {
             "timestamp": "20220923",
             "category": "Threatintel",
             "tags": ["contextualisation", "taxonomy"],
@@ -13,7 +22,8 @@
                                 "https://user-images.githubusercontent.com/256028/191698588-59194109-8e43-4ca6-ae21-fe841415d83e.png",
                                 "https://user-images.githubusercontent.com/256028/191698789-4ede81d3-952c-422e-9945-d99eb7786943.png" ],
             "value": "Use a private taxonomy to describe internal sources, (risk) classifications or workflows. Taxonomies are simple JSON files in 'app/files/taxonomies/<taxonomy>/machinetag.json'. Then 'Update taxonomies' and enable the required tags."
-        },        {
+        },
+        {
             "timestamp": "20220916",
             "category": "Administration",
             "tags": ["security", "privacy"],

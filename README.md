@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20220930 **Threatintel** *enrichment* *modules* 
+
+>The MISP modules can also be used outside MISP. Query the module server for its enabled modules or immediately start using a MISP module with one simple request.
+
+![](https://user-images.githubusercontent.com/256028/192039631-fc60fdb0-f276-4398-be26-e7ef6d3b07f9.png)![](https://user-images.githubusercontent.com/256028/192039637-7f4fb3b8-0a2c-418b-a127-738e0e2cdb97.png) 
+
+[https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_modules.ipynb](https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp_modules.ipynb) 
+
+
+*** 
+
+
 20220923 **Threatintel** *contextualisation* *taxonomy* 
 
 >Use a private taxonomy to describe internal sources, (risk) classifications or workflows. Taxonomies are simple JSON files in 'app/files/taxonomies/<taxonomy>/machinetag.json'. Then 'Update taxonomies' and enable the required tags.
