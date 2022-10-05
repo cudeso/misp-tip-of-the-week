@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221007 **Threatintel** *indicators* *attriobutes* *search* 
+
+>You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values.
+
+![](https://user-images.githubusercontent.com/256028/193765295-666d02c4-3f01-4316-a6f6-66833187f46b.png) 
+
+
+
+*** 
+
+
 20220930 **Threatintel** *enrichment* *modules* 
 
 >The MISP modules can also be used outside MISP. Query the module server for its enabled modules or immediately start using a MISP module with one simple request.

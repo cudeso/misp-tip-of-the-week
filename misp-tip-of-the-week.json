@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221007",
+            "category": "Threatintel",
+            "tags": ["indicators", "attriobutes", "search"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/193765295-666d02c4-3f01-4316-a6f6-66833187f46b.png" ],
+            "value": "You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values."
+        },        
+        {
             "timestamp": "20220930",
             "category": "Threatintel",
             "tags": ["enrichment", "modules"],
@@ -11,7 +19,7 @@
             "screenshots": [    "https://user-images.githubusercontent.com/256028/192039631-fc60fdb0-f276-4398-be26-e7ef6d3b07f9.png",
                                 "https://user-images.githubusercontent.com/256028/192039637-7f4fb3b8-0a2c-418b-a127-738e0e2cdb97.png" ],
             "value": "The MISP modules can also be used outside MISP. Query the module server for its enabled modules or immediately start using a MISP module with one simple request."
-        },        
+        },
         {
             "timestamp": "20220923",
             "category": "Threatintel",
