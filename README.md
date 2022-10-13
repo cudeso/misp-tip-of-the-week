@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221014 **Administration** *security* *hardening* *audit* 
+
+>The MISP diagnostics page contains useful security audit recommendations. Visit Administration > Diagnostics and scroll down to 'Security Audit' to check which settings require a review.
+
+![](https://user-images.githubusercontent.com/256028/195662623-79cad086-1d85-4bc9-84b9-12af9269a61f.png) 
+
+
+
+*** 
+
+
 20221007 **Threatintel** *indicators* *attriobutes* *search* 
 
 >You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values.

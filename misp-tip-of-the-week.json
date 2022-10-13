@@ -4,13 +4,21 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221014",
+            "category": "Administration",
+            "tags": ["security", "hardening", "audit"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/195662623-79cad086-1d85-4bc9-84b9-12af9269a61f.png" ],
+            "value": "The MISP diagnostics page contains useful security audit recommendations. Visit Administration > Diagnostics and scroll down to 'Security Audit' to check which settings require a review."
+        },        
+        {
             "timestamp": "20221007",
             "category": "Threatintel",
             "tags": ["indicators", "attriobutes", "search"],
             "refs": [ ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/193765295-666d02c4-3f01-4316-a6f6-66833187f46b.png" ],
             "value": "You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values."
-        },        
+        },
         {
             "timestamp": "20220930",
             "category": "Threatintel",
