@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221021 **Threatintel** *collection* 
+
+>Picked up during #CTIS2022: Use mail_to_misp to connect your mail infrastructure to MISP and create threat events from information that is contained in mails.
+
+ 
+
+[https://github.com/MISP/mail_to_misp](https://github.com/MISP/mail_to_misp) 
+
+
+*** 
+
+
 20221014 **Administration** *security* *hardening* *audit* 
 
 >The MISP diagnostics page contains useful security audit recommendations. Visit Administration > Diagnostics and scroll down to 'Security Audit' to check which settings require a review.
