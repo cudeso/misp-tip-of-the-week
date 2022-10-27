@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221028 **Administration** *sql* *database* 
+
+>Manually fixing the database schema is time consuming. Paste the HTML source from the 'Diagnostics' page in CyberChef and use this recipe to extract all the SQL queries.
+
+![](https://user-images.githubusercontent.com/256028/198369107-afedd90d-78ec-4b8a-a36d-232c54ac8fd0.png)![](https://user-images.githubusercontent.com/256028/198369886-5a7e4143-4789-4151-b3fe-abac7d68a4f4.png)![](https://user-images.githubusercontent.com/256028/198371349-7d3870d8-ab9e-4537-bbd7-e46da8276081.png) 
+
+
+
+*** 
+
+
 20221021 **Threatintel** *collection* 
 
 >Picked up during #CTIS2022: Use mail_to_misp to connect your mail infrastructure to MISP and create threat events from information that is contained in mails.

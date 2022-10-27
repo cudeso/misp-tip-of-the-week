@@ -1,0 +1,4 @@
+Find_/_Replace({'option':'Simple string','string':'&quot;&#039;&#039;&quot;'},'"\'\'"',true,false,true,false)
+Regular_expression('User defined','\\bdata-query=\\"["\'a-zA-Z0-9()_; `]{15,}[;]',true,true,false,false,false,false,'List matches')
+Sort('Line feed',false,'Alphabetical (case sensitive)')
+Find_/_Replace({'option':'Regex','string':'data-query="'},'',true,false,true,false)
