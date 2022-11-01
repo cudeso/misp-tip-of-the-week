@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221104 **Threatintel** *indicators* *delete* 
+
+>A 'soft' delete propagates to other MISPs. A 'hard' delete removes the attribute on your instance, preventing propagation. Recover deleted attributes under the 'delete' tab or use the 'get-deleted-attributes' notebook.
+
+![](https://user-images.githubusercontent.com/256028/199177394-5b2fdf24-af18-411e-8db3-a34e93c1be08.png)![](https://user-images.githubusercontent.com/256028/199177400-0d6b6e97-f9d0-4a14-b6b4-37a7dbcd4a07.png)![](https://user-images.githubusercontent.com/256028/199177397-5886750a-1f4c-49a6-98d8-c1482357f5b8.png)![](https://user-images.githubusercontent.com/256028/199335531-b1aab7a0-800b-426d-970b-54de6c3c1b29.png) 
+
+
+
+*** 
+
+
 20221028 **Administration** *sql* *database* 
 
 >Manually fixing the database schema is time consuming. Paste the HTML source from the 'Diagnostics' page in CyberChef and use this recipe to extract all the SQL queries.
