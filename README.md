@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221111 **Administration** *sharing* *synchronisation* 
+
+>Server synchronisation rules go beyond tag or organisation filtering. You can use filters to get only those events from the last 30 days ('timestamp') or unleash the real/dangerous power and filter on attribute/object type.
+
+![](https://user-images.githubusercontent.com/256028/200587915-83ac1d50-b632-49cd-8cb4-0a707612f408.png)![](https://user-images.githubusercontent.com/256028/201021482-078a6dd0-2329-4b64-ab43-1be85c7d06c8.png)![](https://user-images.githubusercontent.com/256028/201022877-8095cd3c-fd8c-4f5a-b4d0-4055f9a95ded.png) 
+
+
+
+*** 
+
+
 20221104 **Threatintel** *indicators* *delete* 
 
 >A 'soft' delete propagates to other MISPs. A 'hard' delete removes the attribute on your instance, preventing propagation. Recover deleted attributes under the 'delete' tab or use the 'get-deleted-attributes' notebook.
