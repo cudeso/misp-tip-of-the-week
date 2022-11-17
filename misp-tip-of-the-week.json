@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221118",
+            "category": "Administration",
+            "tags": ["security", "hardening", "audit"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/202545233-3d5035c0-67f5-4ef7-8ca2-ebb80dee4d52.png",
+                             "https://user-images.githubusercontent.com/256028/202545690-39904579-7710-4542-8ada-0e946f23bf41.png"],
+            "value": "Encrypt authentication keys that you use to synchronise with remote MISP servers. Set the key (min. length 32) from the command line with cake. Remember that the key is displayed and -likely- also in the bash history."
+        },
+        {
             "timestamp": "20221111",
             "category": "Administration",
             "tags": ["sharing", "synchronisation"],
@@ -12,7 +21,7 @@
                              "https://user-images.githubusercontent.com/256028/201021482-078a6dd0-2329-4b64-ab43-1be85c7d06c8.png",
                             "https://user-images.githubusercontent.com/256028/201022877-8095cd3c-fd8c-4f5a-b4d0-4055f9a95ded.png" ],
             "value": "Server synchronisation rules go beyond tag or organisation filtering. You can use filters to get only those events from the last 30 days ('timestamp') or unleash the real/dangerous power and filter on attribute/object type."
-        },        
+        },
         {
             "timestamp": "20221104",
             "category": "Threatintel",
@@ -53,7 +62,7 @@
         {
             "timestamp": "20221007",
             "category": "Threatintel",
-            "tags": ["indicators", "attriobutes", "search"],
+            "tags": ["indicators", "attributes", "search"],
             "refs": [ ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/193765295-666d02c4-3f01-4316-a6f6-66833187f46b.png" ],
             "value": "You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values."

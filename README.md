@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221118 **Administration** *security* *hardening* *audit* 
+
+>Encrypt authentication keys that you use to synchronise with remote MISP servers. Set the key (min. length 32) from the command line with cake. Remember that the key is displayed and -likely- also in the bash history.
+
+![](https://user-images.githubusercontent.com/256028/202545233-3d5035c0-67f5-4ef7-8ca2-ebb80dee4d52.png)![](https://user-images.githubusercontent.com/256028/202545690-39904579-7710-4542-8ada-0e946f23bf41.png) 
+
+
+
+*** 
+
+
 20221111 **Administration** *sharing* *synchronisation* 
 
 >Server synchronisation rules go beyond tag or organisation filtering. You can use filters to get only those events from the last 30 days ('timestamp') or unleash the real/dangerous power and filter on attribute/object type.
@@ -64,7 +75,7 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 *** 
 
 
-20221007 **Threatintel** *indicators* *attriobutes* *search* 
+20221007 **Threatintel** *indicators* *attributes* *search* 
 
 >You can search for multiple (substring) MISP attributes at the same time with a '%VALUE%' string per newline. Further refine your search with for example tags and the first seen or last seen of the attributes/values.
 
