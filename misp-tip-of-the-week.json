@@ -4,6 +4,16 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221125",
+            "category": "Administration",
+            "tags": ["usability", "ux", "customisation"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/203845467-6edc2a6b-4dd5-4ea8-8321-dee0f76ff7e1.png",
+                             "https://user-images.githubusercontent.com/256028/203845472-6267234d-c300-4120-a730-96a469983a45.png",
+                            "https://user-images.githubusercontent.com/256028/203845476-9ac78ab7-e122-49d5-b489-878bc81cacb7.png"],
+            "value": "When you provision users you can set their start page and customise the columns displayed on the event index via 'set_user_setting' with PyMISP (or manually under 'Administration>Set User Setting')."
+        },        
+        {
             "timestamp": "20221118",
             "category": "Administration",
             "tags": ["security", "hardening", "audit"],

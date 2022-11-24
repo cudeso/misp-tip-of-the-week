@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221125 **Administration** *usability* *ux* *customisation* 
+
+>When you provision users you can set their start page and customise the columns displayed on the event index via 'set_user_setting' with PyMISP (or manually under 'Administration>Set User Setting').
+
+![](https://user-images.githubusercontent.com/256028/203845467-6edc2a6b-4dd5-4ea8-8321-dee0f76ff7e1.png)![](https://user-images.githubusercontent.com/256028/203845472-6267234d-c300-4120-a730-96a469983a45.png)![](https://user-images.githubusercontent.com/256028/203845476-9ac78ab7-e122-49d5-b489-878bc81cacb7.png) 
+
+
+
+*** 
+
+
 20221118 **Administration** *security* *hardening* *audit* 
 
 >Encrypt authentication keys that you use to synchronise with remote MISP servers. Set the key (min. length 32) from the command line with cake. Remember that the key is displayed and -likely- also in the bash history.
