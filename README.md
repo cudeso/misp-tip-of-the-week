@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221202 **Administration** *database* *sql* *monitoring* *audit* 
+
+>The MISP audit log (MISP.log_new_audit) provides a detailed history of event and attribute changes. But it can also exponentially grow in size. Deleting older events only impacts the event history and not any MISP functionality.
+
+![](https://user-images.githubusercontent.com/256028/204902149-a0dd8117-1d95-4adb-9bd1-8a02ae0532cb.png)![](https://user-images.githubusercontent.com/256028/204899022-5fe1b179-98a9-4352-9d11-f658d9991199.png) 
+
+
+
+*** 
+
+
 20221125 **Administration** *usability* *ux* *customisation* 
 
 >When you provision users you can set their start page and customise the columns displayed on the event index via 'set_user_setting' with PyMISP (or manually under 'Administration>Set User Setting').
