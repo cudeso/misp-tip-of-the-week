@@ -4,6 +4,16 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221209",
+            "category": "Misc",
+            "tags": ["warninglists", "export", "automation"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/206116594-00f07493-029f-451e-adea-8cba89719164.png",
+                             "https://user-images.githubusercontent.com/256028/206117203-c1929122-550b-4bd0-a04e-d3236173a914.png",
+                             "https://user-images.githubusercontent.com/256028/206117205-2bd5db65-f2b6-46fb-ac91-7e974c33f4ba.png" ],
+            "value": "You can export MISP warninglists (including your own custom lists) by replacing 'view' with 'export in the URL. Or use the example Jupyter Notebook to access or export the lists with PyMISP."
+        },        
+        {
             "timestamp": "20221202",
             "category": "Administration",
             "tags": ["database", "sql", "monitoring", "audit"],

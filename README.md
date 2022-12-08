@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221209 **Misc** *warninglists* *export* *automation* 
+
+>You can export MISP warninglists (including your own custom lists) by replacing 'view' with 'export in the URL. Or use the example Jupyter Notebook to access or export the lists with PyMISP.
+
+![](https://user-images.githubusercontent.com/256028/206116594-00f07493-029f-451e-adea-8cba89719164.png)![](https://user-images.githubusercontent.com/256028/206117203-c1929122-550b-4bd0-a04e-d3236173a914.png)![](https://user-images.githubusercontent.com/256028/206117205-2bd5db65-f2b6-46fb-ac91-7e974c33f4ba.png) 
+
+
+
+*** 
+
+
 20221202 **Administration** *database* *sql* *monitoring* *audit* 
 
 >The MISP audit log (MISP.log_new_audit) provides a detailed history of event and attribute changes. But it can also exponentially grow in size. Deleting older events only impacts the event history and not any MISP functionality.
