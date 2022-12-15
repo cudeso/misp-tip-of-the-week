@@ -4,6 +4,18 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20221216",
+            "category": "Threatintel",
+            "tags": ["galaxies", "clusters", "contextualisation"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/207940899-a11db709-1c89-46bc-b0e4-fa7cc0a5636e.png",
+                             "https://user-images.githubusercontent.com/256028/207939086-2c3eddfe-99bf-40ce-bf12-c49429b843e8.png",
+                             "https://user-images.githubusercontent.com/256028/207940892-580848b7-11b4-4b3a-b33f-5f48b1279a05.png",
+                             "https://user-images.githubusercontent.com/256028/207940901-fa1ba3e1-2420-4a40-9d63-ba360096be46.png"
+                     ],
+            "value":"Sharing clusters has become much easier. Create a custom galaxy cluster (Galaxies>List galaxies, select galaxy, add cluster), add relationships and enable push/pull galaxies in the server synchronisation setting."
+        },        
+        {
             "timestamp": "20221209",
             "category": "Misc",
             "tags": ["warninglists", "export", "automation"],
@@ -12,7 +24,7 @@
                              "https://user-images.githubusercontent.com/256028/206117203-c1929122-550b-4bd0-a04e-d3236173a914.png",
                              "https://user-images.githubusercontent.com/256028/206117205-2bd5db65-f2b6-46fb-ac91-7e974c33f4ba.png" ],
             "value": "You can export MISP warninglists (including your own custom lists) by replacing 'view' with 'export in the URL. Or use the example Jupyter Notebook to access or export the lists with PyMISP."
-        },        
+        },
         {
             "timestamp": "20221202",
             "category": "Administration",

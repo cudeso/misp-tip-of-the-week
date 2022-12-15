@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221216 **Threatintel** *galaxies* *clusters* *contextualisation* 
+
+>Sharing clusters has become much easier. Create a custom galaxy cluster (Galaxies>List galaxies, select galaxy, add cluster), add relationships and enable push/pull galaxies in the server synchronisation setting.
+
+![](https://user-images.githubusercontent.com/256028/207940899-a11db709-1c89-46bc-b0e4-fa7cc0a5636e.png)![](https://user-images.githubusercontent.com/256028/207939086-2c3eddfe-99bf-40ce-bf12-c49429b843e8.png)![](https://user-images.githubusercontent.com/256028/207940892-580848b7-11b4-4b3a-b33f-5f48b1279a05.png)![](https://user-images.githubusercontent.com/256028/207940901-fa1ba3e1-2420-4a40-9d63-ba360096be46.png) 
+
+
+
+*** 
+
+
 20221209 **Misc** *warninglists* *export* *automation* 
 
 >You can export MISP warninglists (including your own custom lists) by replacing 'view' with 'export in the URL. Or use the example Jupyter Notebook to access or export the lists with PyMISP.
