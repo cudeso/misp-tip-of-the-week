@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221223 **Threatintel** *correlation* *cidr* *pivoting* 
+
+>Although the advanced correlation features can be performance heavy, they provide you excellent leads for pivoting via CIDR (IPs part of a network) or fuzzy hashing (ssdeep).
+
+![](https://user-images.githubusercontent.com/256028/209181040-41ae7519-4e20-4361-8ab9-0e4ce4a9303d.png)![](https://user-images.githubusercontent.com/256028/209182332-0f6ce7f1-37a0-43f8-bb2a-9b1960a74c8e.png)![](https://user-images.githubusercontent.com/256028/209182340-06127585-621e-41bb-b4cb-e04d19a9c74f.png)![](https://user-images.githubusercontent.com/256028/209185492-df4c0ac3-a116-4dc5-9a21-f72e56481297.png) 
+
+[https://securityintelligence.com/how-pivoting-can-help-your-incident-response-process/](https://securityintelligence.com/how-pivoting-can-help-your-incident-response-process/) 
+
+
+*** 
+
+
 20221216 **Threatintel** *galaxies* *clusters* *contextualisation* 
 
 >Sharing clusters has become much easier. Create a custom galaxy cluster (Galaxies>List galaxies, select galaxy, add cluster), add relationships and enable push/pull galaxies in the server synchronisation setting.
