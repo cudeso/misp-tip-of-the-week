@@ -10,7 +10,7 @@ except ImportError:
 misperrors = {"error": "Error"}
 mispattributes = {"input": ["domain", "ip-src", "ip-dst", "url"], "output": ["text"]}
 moduleinfo = {"version": "0.1", "author": "Koen Van Impe",
-              "description": "Query OpenAI. Mostly for demo purposes, part of misp-tip-of-the-week",
+              "description": "Query OpenAI. Used for demo purposes. Take into account the sharing and sensitivity level of the data you share with OpenAI!",
               "module-type": ["expansion"]}
 
 moduleconfig = ["api_key"]
