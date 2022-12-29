@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20221230 **Misc** *extension* *enrichment* *misp-modules* *openai* 
+
+>MISP modules provide an easy way to extend your threat intelligence platform. Use inspiration from the example on integrating our new overlords from @openai ('ChatGPT') with MISP.
+
+![](https://user-images.githubusercontent.com/256028/209987433-1afd01ed-209c-4eeb-9b2f-273b5c2634aa.png)![](https://user-images.githubusercontent.com/256028/209987438-6fd6b540-2d0b-4ad5-a07b-eba56942ace9.png)![](https://user-images.githubusercontent.com/256028/209987443-d95453b7-3b1a-4405-ada1-8fabb58c9657.png)![](https://user-images.githubusercontent.com/256028/209987614-bc393d1b-2f16-4f08-9b30-06e42492f3b6.png) 
+
+[https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp-module-openai.py](https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/misp-module-openai.py) 
+
+
+*** 
+
+
 20221223 **Threatintel** *correlation* *cidr* *pivoting* 
 
 >Although the advanced correlation features can be performance heavy, they provide you excellent leads for pivoting via CIDR (IPs part of a network) or fuzzy hashing (ssdeep).
