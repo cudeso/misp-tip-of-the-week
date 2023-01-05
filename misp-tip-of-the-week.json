@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230106",
+            "category": "Misc",
+            "tags": ["security", "vulnerability", "cve"],
+            "refs": [ "https://www.misp-project.org/security/" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/210815848-e3e28e74-3d39-46c6-9c25-23af6df30ee6.png" ],
+            "value":"You can report security vulnerabilities for MISP or related MISP project repositories to CIRCL. You can encrypt your report with the public GPG key 'CA57 2205 C002 4E06 BA70 BE89 EAAD CFFC 22BD 4CD5'."
+        },        
+        {
             "timestamp": "20221230",
             "category": "Misc",
             "tags": ["extension", "enrichment", "misp-modules", "openai"],

@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230106 **Misc** *security* *vulnerability* *cve* 
+
+>You can report security vulnerabilities for MISP or related MISP project repositories to CIRCL. You can encrypt your report with the public GPG key 'CA57 2205 C002 4E06 BA70 BE89 EAAD CFFC 22BD 4CD5'.
+
+![](https://user-images.githubusercontent.com/256028/210815848-e3e28e74-3d39-46c6-9c25-23af6df30ee6.png) 
+
+[https://www.misp-project.org/security/](https://www.misp-project.org/security/) 
+
+
+*** 
+
+
 20221230 **Misc** *extension* *enrichment* *misp-modules* *openai* 
 
 >MISP modules provide an easy way to extend your threat intelligence platform. Use inspiration from the example on integrating our new overlords from @openai ('ChatGPT') with MISP.
