@@ -4,13 +4,23 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230113",
+            "category": "Threatintel",
+            "tags": ["reporting", "sharing", "dissemination"],
+            "refs": [ "https://github.com/MISP/PyMISP/tree/main/docs/PDF-export" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/211628965-a71009cc-0b59-4957-9c5e-0de773eab5c1.png",
+                            "https://user-images.githubusercontent.com/256028/211628974-8e6ba69d-bb1b-419e-a82c-2ea9e29654eb.png",
+                            "https://user-images.githubusercontent.com/256028/211628976-5d91fcc9-a80c-4478-940c-0d59aed46b01.png" ],
+            "value":"You can use the pdfexport module to create a PDF report from a MISP event, including a summary and an overview of attributes and objects. Ideal to share with users that do not have immediate access to your MISP instance."
+        },        
+        {
             "timestamp": "20230106",
             "category": "Misc",
             "tags": ["security", "vulnerability", "cve"],
             "refs": [ "https://www.misp-project.org/security/" ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/210815848-e3e28e74-3d39-46c6-9c25-23af6df30ee6.png" ],
             "value":"You can report security vulnerabilities for MISP or related MISP project repositories to CIRCL. You can encrypt your report with the public GPG key 'CA57 2205 C002 4E06 BA70 BE89 EAAD CFFC 22BD 4CD5'."
-        },        
+        },
         {
             "timestamp": "20221230",
             "category": "Misc",

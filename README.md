@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230113 **Threatintel** *reporting* *sharing* *dissemination* 
+
+>You can use the pdfexport module to create a PDF report from a MISP event, including a summary and an overview of attributes and objects. Ideal to share with users that do not have immediate access to your MISP instance.
+
+![](https://user-images.githubusercontent.com/256028/211628965-a71009cc-0b59-4957-9c5e-0de773eab5c1.png)![](https://user-images.githubusercontent.com/256028/211628974-8e6ba69d-bb1b-419e-a82c-2ea9e29654eb.png)![](https://user-images.githubusercontent.com/256028/211628976-5d91fcc9-a80c-4478-940c-0d59aed46b01.png) 
+
+[https://github.com/MISP/PyMISP/tree/main/docs/PDF-export](https://github.com/MISP/PyMISP/tree/main/docs/PDF-export) 
+
+
+*** 
+
+
 20230106 **Misc** *security* *vulnerability* *cve* 
 
 >You can report security vulnerabilities for MISP or related MISP project repositories to CIRCL. You can encrypt your report with the public GPG key 'CA57 2205 C002 4E06 BA70 BE89 EAAD CFFC 22BD 4CD5'.
