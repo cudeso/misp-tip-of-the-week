@@ -4,6 +4,16 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230120",
+            "category": "Threatintel",
+            "tags": ["search", "query"],
+            "refs": [ "https://pymisp.readthedocs.io/en/latest/modules.html#pymisp.PyMISP.build_complex_query",
+                      "https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/Complex%20search%20query.ipynb" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/213521767-9893dd33-008a-4e10-af9f-3989294e8a86.png",
+                            "https://user-images.githubusercontent.com/256028/213521778-8ddea828-e53b-422c-8db6-2b395971da70.png" ],
+            "value":"You can use the PyMISP function 'build_complex_query' to build complex MISP search queries ('or', 'and', 'not') for threat indicators (values) or context (tags). Use the example in the Jupyter notebook to get started."
+        },        
+        {
             "timestamp": "20230113",
             "category": "Threatintel",
             "tags": ["reporting", "sharing", "dissemination"],
@@ -12,7 +22,7 @@
                             "https://user-images.githubusercontent.com/256028/211628974-8e6ba69d-bb1b-419e-a82c-2ea9e29654eb.png",
                             "https://user-images.githubusercontent.com/256028/211628976-5d91fcc9-a80c-4478-940c-0d59aed46b01.png" ],
             "value":"You can use the pdfexport module to create a PDF report from a MISP event, including a summary and an overview of attributes and objects. Ideal to share with users that do not have immediate access to your MISP instance."
-        },        
+        },
         {
             "timestamp": "20230106",
             "category": "Misc",
