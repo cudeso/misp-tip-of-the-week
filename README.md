@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230127 **Administration** *organisations* *owner* *creator* 
+
+>There is a difference between the MISP 'Creator' and 'Owner' organisation. The former created the threat event and is allowed to modify it, the latter owns the event on the instance where it is received. They can be different.
+
+![](https://user-images.githubusercontent.com/256028/214786402-c8c3cc18-643b-4cc2-b669-6d6dcaf099b4.png)![](https://user-images.githubusercontent.com/256028/214786403-a7d47064-f430-4e7a-9fea-f7158aaf9566.png) 
+
+[]() 
+
+
+*** 
+
+
 20230120 **Threatintel** *search* *query* 
 
 >You can use the PyMISP function 'build_complex_query' to build complex MISP search queries ('or', 'and', 'not') for threat indicators (values) or context (tags). Use the example in the Jupyter notebook to get started.
