@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230203 **Misc** *enrichment* *modules* *extension* 
+
+>The MISP modules are more powerful than you think. If you set the format of a module to 'misp_standard' you cannot only return attributes, but also MISP objects as part of your CTI enrichment operations.
+
+![](https://user-images.githubusercontent.com/256028/215756355-e6b6ee92-16e3-47f6-a6f4-090cc689183b.png) 
+
+[]() 
+
+
+*** 
+
+
 20230127 **Administration** *organisations* *owner* *creator* 
 
 >There is a difference between the MISP 'Creator' and 'Owner' organisation. The former created the threat event and is allowed to modify it, the latter owns the event on the instance where it is received. They can be different.
