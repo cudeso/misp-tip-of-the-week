@@ -4,13 +4,22 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230210",
+            "category": "Administration",
+            "tags": ["logging", "auditing", "syslog"],
+            "refs": [ "" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/217873041-bc68dad1-4458-4fe9-9f71-20efe6a1f3d6.png",
+                             "https://user-images.githubusercontent.com/256028/217875918-73236803-0073-4b84-b90a-477a12061c6b.png" ],
+            "value":"MISP can log all event, user and synchronisation actions to Syslog. Set 'MISP.log_new_audit' and 'Security.syslog' to True. Then send the (misp-)syslog file to your central log collector."
+        },        
+        {
             "timestamp": "20230203",
             "category": "Misc",
             "tags": ["enrichment", "modules", "extension"],
             "refs": [ "" ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/215756355-e6b6ee92-16e3-47f6-a6f4-090cc689183b.png" ],
             "value":"The MISP modules are more powerful than you think. If you set the format of a module to 'misp_standard' you cannot only return attributes, but also MISP objects as part of your CTI enrichment operations."
-        },        
+        },
         {
             "timestamp": "20230127",
             "category": "Administration",

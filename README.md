@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230210 **Administration** *logging* *auditing* *syslog* 
+
+>MISP can log all event, user and synchronisation actions to Syslog. Set 'MISP.log_new_audit' and 'Security.syslog' to True. Then send the (misp-)syslog file to your central log collector.
+
+![](https://user-images.githubusercontent.com/256028/217873041-bc68dad1-4458-4fe9-9f71-20efe6a1f3d6.png)![](https://user-images.githubusercontent.com/256028/217875918-73236803-0073-4b84-b90a-477a12061c6b.png) 
+
+[]() 
+
+
+*** 
+
+
 20230203 **Misc** *enrichment* *modules* *extension* 
 
 >The MISP modules are more powerful than you think. If you set the format of a module to 'misp_standard' you cannot only return attributes, but also MISP objects as part of your CTI enrichment operations.
