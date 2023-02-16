@@ -4,6 +4,17 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230217",
+            "category": "Administration",
+            "tags": ["malware", "sample", "attachment", "encryption"],
+            "refs": [ "" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/219137201-c0e2afd3-987a-4ac8-9f53-35cecb50bcf6.png",
+            "https://user-images.githubusercontent.com/256028/219137208-d2e59134-77bd-40ea-9409-95db2ec71686.png",
+            "https://user-images.githubusercontent.com/256028/219137212-7dc4ae47-9906-47c1-a0a4-513d2cbf663f.png",
+            "https://user-images.githubusercontent.com/256028/219137215-9de8f808-939a-4ab6-8bb8-6eefe220d8eb.png" ],
+            "value":"MISP stores attachments in /var/www/MISP/app/files/<event_id>/<attachment_id>. Change this with MISP.attachments_dir. Malware samples are in an encrypted ZIP, other attachments are stored 'as is'. Be aware of this when monitoring your MISP server with an EDR."
+        },        
+        {
             "timestamp": "20230210",
             "category": "Administration",
             "tags": ["logging", "auditing", "syslog"],
@@ -11,7 +22,7 @@
             "screenshots": [ "https://user-images.githubusercontent.com/256028/217873041-bc68dad1-4458-4fe9-9f71-20efe6a1f3d6.png",
                              "https://user-images.githubusercontent.com/256028/217875918-73236803-0073-4b84-b90a-477a12061c6b.png" ],
             "value":"MISP can log all event, user and synchronisation actions to Syslog. Set 'MISP.log_new_audit' and 'Security.syslog' to True. Then send the (misp-)syslog file to your central log collector."
-        },        
+        },
         {
             "timestamp": "20230203",
             "category": "Misc",

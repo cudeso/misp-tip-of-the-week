@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230217 **Administration** *malware* *sample* *attachment* *encryption* 
+
+>MISP stores attachments in /var/www/MISP/app/files/<event_id>/<attachment_id>. Change this with MISP.attachments_dir. Malware samples are in an encrypted ZIP, other attachments are stored 'as is'. Be aware of this when monitoring your MISP server with an EDR.
+
+![](https://user-images.githubusercontent.com/256028/219137201-c0e2afd3-987a-4ac8-9f53-35cecb50bcf6.png)![](https://user-images.githubusercontent.com/256028/219137208-d2e59134-77bd-40ea-9409-95db2ec71686.png)![](https://user-images.githubusercontent.com/256028/219137212-7dc4ae47-9906-47c1-a0a4-513d2cbf663f.png)![](https://user-images.githubusercontent.com/256028/219137215-9de8f808-939a-4ab6-8bb8-6eefe220d8eb.png) 
+
+[]() 
+
+
+*** 
+
+
 20230210 **Administration** *logging* *auditing* *syslog* 
 
 >MISP can log all event, user and synchronisation actions to Syslog. Set 'MISP.log_new_audit' and 'Security.syslog' to True. Then send the (misp-)syslog file to your central log collector.
