@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230224 **Administration** *support* *configuration* *status* 
+
+>You can get a JSON report with all the MISP diagnostic information by simply adding '.json' to the MISP diagnostics page. This report is useful to include if you require support or assistance with your MISP.
+
+![](https://user-images.githubusercontent.com/256028/220874178-743588bf-56e4-466e-bacd-9597a9fea6a0.png)![](https://user-images.githubusercontent.com/256028/220874184-70dde278-28a9-4aa2-b224-c9ab7959dd0d.png) 
+
+[]() 
+
+
+*** 
+
+
 20230217 **Administration** *malware* *sample* *attachment* *encryption* 
 
 >MISP stores attachments in /var/www/MISP/app/files/<event_id>/<attachment_id>. Change this with MISP.attachments_dir. Malware samples are in an encrypted ZIP, other attachments are stored 'as is'. Be aware of this when monitoring your MISP server with an EDR.

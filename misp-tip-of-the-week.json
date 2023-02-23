@@ -4,6 +4,15 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230224",
+            "category": "Administration",
+            "tags": ["support", "configuration", "status"],
+            "refs": [ "" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/220874178-743588bf-56e4-466e-bacd-9597a9fea6a0.png",
+                            "https://user-images.githubusercontent.com/256028/220874184-70dde278-28a9-4aa2-b224-c9ab7959dd0d.png" ],
+            "value":"You can get a JSON report with all the MISP diagnostic information by simply adding '.json' to the MISP diagnostics page. This report is useful to include if you require support or assistance with your MISP."
+        },         
+        {
             "timestamp": "20230217",
             "category": "Administration",
             "tags": ["malware", "sample", "attachment", "encryption"],
@@ -13,7 +22,7 @@
             "https://user-images.githubusercontent.com/256028/219137212-7dc4ae47-9906-47c1-a0a4-513d2cbf663f.png",
             "https://user-images.githubusercontent.com/256028/219137215-9de8f808-939a-4ab6-8bb8-6eefe220d8eb.png" ],
             "value":"MISP stores attachments in /var/www/MISP/app/files/<event_id>/<attachment_id>. Change this with MISP.attachments_dir. Malware samples are in an encrypted ZIP, other attachments are stored 'as is'. Be aware of this when monitoring your MISP server with an EDR."
-        },        
+        }, 
         {
             "timestamp": "20230210",
             "category": "Administration",
