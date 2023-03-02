@@ -8,6 +8,18 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230303 **Administration** *dataproviders* *synchronisation* *feeds* *connectivity* *monitoring* 
+
+>It's a good idea to monitor connectivity to your TI data providers. Use the dashboard to monitor sync-servers or use PyMISP (fe. with alerting) to monitor both sync-servers and external feeds.
+
+![](https://user-images.githubusercontent.com/256028/222270088-2dcef9aa-a1c5-4c0a-90e7-f83c1537a64e.png)![](https://user-images.githubusercontent.com/256028/222351829-c8db86e0-5685-429e-b2f2-24f311c7952d.png)![](https://user-images.githubusercontent.com/256028/222351833-5607d8ca-cdaa-44cb-bc18-7cc1d8320348.png) 
+
+[]() 
+
+
+*** 
+
+
 20230224 **Administration** *support* *configuration* *status* 
 
 >You can get a JSON report with all the MISP diagnostic information by simply adding '.json' to the MISP diagnostics page. This report is useful to include if you require support or assistance with your MISP.
