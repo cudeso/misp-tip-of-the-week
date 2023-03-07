@@ -4,6 +4,17 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230310",
+            "category": "Administration",
+            "tags": ["authentication", "sso", "openid", "oauth"],
+            "refs": [ "https://github.com/MISP/MISP/tree/2.4/app/Plugin/OidcAuth",
+                      "https://github.com/MISP/MISP/tree/2.4/app/Plugin/AadAuth" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/223571473-ca38488a-5963-44fa-a054-fcb477424e30.png",
+                            "https://user-images.githubusercontent.com/256028/223571478-485e27a4-7e28-4ef6-933b-cbd24cdcf274.png",
+                            "https://user-images.githubusercontent.com/256028/223571481-87443490-19e4-4b27-ad38-d2c27a734ee7.png" ],
+            "value":"MISP supports Single Sign-On (SSO) with different authentication providers, such as AzureAD (via oAuth2) and OpenIDConnect (fe. for OneLogin). Simply enable the provider in 'Security/auth' and configure the provider settings."
+        },        
+        {
             "timestamp": "20230303",
             "category": "Administration",
             "tags": ["dataproviders", "synchronisation", "feeds", "connectivity", "monitoring"],
@@ -12,7 +23,7 @@
                                 "https://user-images.githubusercontent.com/256028/222351829-c8db86e0-5685-429e-b2f2-24f311c7952d.png",
                                 "https://user-images.githubusercontent.com/256028/222351833-5607d8ca-cdaa-44cb-bc18-7cc1d8320348.png" ],
             "value":"It's a good idea to monitor connectivity to your TI data providers. Use the dashboard to monitor sync-servers or use PyMISP (fe. with alerting) to monitor both sync-servers and external feeds."
-        },        
+        },
         {
             "timestamp": "20230224",
             "category": "Administration",
