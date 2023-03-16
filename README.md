@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230317 **Misc** *attribute* *datamodel* *validation* 
+
+>MISP comes with an extensive set of built-in attributes. Consult generateTypeDefinitions in 'app/Model/Attribute.php' for implementation details and 'app/Lib/Tools/AttributeValidationTool.php' for the attribute validations.
+
+![](https://user-images.githubusercontent.com/256028/225734849-6a207580-6307-4bcc-8873-23fa751ccbde.png)![](https://user-images.githubusercontent.com/256028/225734858-704ee58a-53f3-46de-9870-371b28b745e9.png)![](https://user-images.githubusercontent.com/256028/225734860-a8b30086-fbef-4266-9993-b55bd55f37bf.png)![](https://user-images.githubusercontent.com/256028/225734863-cb27f24b-4509-420c-b60e-434843b047d0.png) 
+
+
+
+*** 
+
+
 20230310 **Administration** *authentication* *sso* *openid* *oauth* 
 
 >MISP supports Single Sign-On (SSO) with different authentication providers, such as AzureAD (via oAuth2) and OpenIDConnect (fe. for OneLogin). Simply enable the provider in 'Security/auth' and configure the provider settings.
