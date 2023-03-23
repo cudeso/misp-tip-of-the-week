@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230324",
+            "category": "Administration",
+            "tags": ["sharing", "distribution"],
+            "refs": [ ],
+            "screenshots": [ ],
+            "value":"You can limit the access to unpublished events on your server to only users part of the event creator organisation with the setting 'MISP.unpublishedprivate'. A great way to make the event only available once you consider it ready for publication."
+        },        
+        {
             "timestamp": "20230317",
             "category": "Misc",
             "tags": ["attribute", "datamodel", "validation"],
@@ -13,7 +21,7 @@
                              "https://user-images.githubusercontent.com/256028/225734860-a8b30086-fbef-4266-9993-b55bd55f37bf.png",
                              "https://user-images.githubusercontent.com/256028/225734863-cb27f24b-4509-420c-b60e-434843b047d0.png"],
             "value":"MISP comes with an extensive set of built-in attributes. Consult generateTypeDefinitions in 'app/Model/Attribute.php' for implementation details and 'app/Lib/Tools/AttributeValidationTool.php' for the attribute validations."
-        },        
+        },
         {
             "timestamp": "20230310",
             "category": "Administration",

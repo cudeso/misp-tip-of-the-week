@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230324 **Administration** *sharing* *distribution* 
+
+>You can limit the access to unpublished events on your server to only users part of the event creator organisation with the setting 'MISP.unpublishedprivate'. A great way to make the event only available once you consider it ready for publication.
+
+ 
+
+
+
+*** 
+
+
 20230317 **Misc** *attribute* *datamodel* *validation* 
 
 >MISP comes with an extensive set of built-in attributes. Consult generateTypeDefinitions in 'app/Model/Attribute.php' for implementation details and 'app/Lib/Tools/AttributeValidationTool.php' for the attribute validations.
