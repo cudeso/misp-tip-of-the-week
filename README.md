@@ -8,6 +8,19 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230331 **Threatintel** *objects* *context* *relations* 
+
+>MISP objects are a powerful way to add contextually linked attributes to threat events. And it's available via PyMISP. Use this notebook as a starter or learn how to add your own custom objects.
+
+![](https://user-images.githubusercontent.com/256028/228943046-83f0e6b5-824f-4517-97ba-da5e70c11dcc.png)![](https://user-images.githubusercontent.com/256028/228943059-bf37a1a6-64c0-4df5-9f55-95f889685b54.png) 
+
+[https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/MISP_objects_relations.ipynb](https://github.com/cudeso/misp-tip-of-the-week/blob/main/originals/MISP_objects_relations.ipynb) 
+[https://www.misp-project.org/2021/03/17/MISP-Objects-101.html/](https://www.misp-project.org/2021/03/17/MISP-Objects-101.html/) 
+
+
+*** 
+
+
 20230324 **Administration** *sharing* *distribution* 
 
 >You can limit the access to unpublished events on your server to only users part of the event creator organisation with the setting 'MISP.unpublishedprivate'. A great way to make the event only available once you consider it ready for publication.
