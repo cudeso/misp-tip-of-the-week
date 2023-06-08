@@ -4,6 +4,14 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20230708",
+            "category": "Administration",
+            "tags": ["dashboard", "users", "audit"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/244464361-34f7ca5f-5f23-4972-a9df-d66a0dbb1b85.png" ],
+            "value":"The MISP dashboard (since v2.4.171) has new widgets allowing you to monitor the use of API keys, user logins and user creation."
+        },        
+        {
             "timestamp": "20230331",
             "category": "Threatintel",
             "tags": ["objects", "context", "relations"],
@@ -12,7 +20,7 @@
             "screenshots": [ "https://user-images.githubusercontent.com/256028/228943046-83f0e6b5-824f-4517-97ba-da5e70c11dcc.png",
                              "https://user-images.githubusercontent.com/256028/228943059-bf37a1a6-64c0-4df5-9f55-95f889685b54.png" ],
             "value":"MISP objects are a powerful way to add contextually linked attributes to threat events. And it's available via PyMISP. Use this notebook as a starter or learn how to add your own custom objects."
-        },        
+        },
         {
             "timestamp": "20230324",
             "category": "Administration",

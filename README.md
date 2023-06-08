@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230708 **Administration** *dashboard* *users* *audit* 
+
+>The MISP dashboard (since v2.4.171) has new widgets allowing you to monitor the use of API keys, user logins and user creation.
+
+![](https://user-images.githubusercontent.com/256028/244464361-34f7ca5f-5f23-4972-a9df-d66a0dbb1b85.png) 
+
+
+
+*** 
+
+
 20230331 **Threatintel** *objects* *context* *relations* 
 
 >MISP objects are a powerful way to add contextually linked attributes to threat events. And it's available via PyMISP. Use this notebook as a starter or learn how to add your own custom objects.
