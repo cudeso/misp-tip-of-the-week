@@ -8,7 +8,19 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
-20230708 **Administration** *dashboard* *users* *audit* 
+20230615 **Administration** *security* *users* *audit* *mfa* 
+
+>Starting from 2.4.172 MISP has support for multi-factor authentication. Install the Composer libraries and then enable it under your profile settings. Enforce it system-wide with 'MISP.totp_required'.
+
+![](https://user-images.githubusercontent.com/256028/246104606-84fcedf7-6757-48f4-88af-7891f5c56e45.png)![](https://user-images.githubusercontent.com/256028/246104618-9f658fd0-17d0-43bd-9e15-8d66b9461a67.png) 
+
+[https://www.misp-project.org/2023/06/13/MISP.2.4.172.released.html/](https://www.misp-project.org/2023/06/13/MISP.2.4.172.released.html/) 
+
+
+*** 
+
+
+20230608 **Administration** *dashboard* *users* *audit* 
 
 >The MISP dashboard (since v2.4.171) has new widgets allowing you to monitor the use of API keys, user logins and user creation.
 

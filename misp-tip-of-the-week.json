@@ -4,13 +4,22 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
-            "timestamp": "20230708",
+            "timestamp": "20230615",
+            "category": "Administration",
+            "tags": ["security", "users", "audit", "mfa"],
+            "refs": [ "https://www.misp-project.org/2023/06/13/MISP.2.4.172.released.html/" ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/246104606-84fcedf7-6757-48f4-88af-7891f5c56e45.png",
+                             "https://user-images.githubusercontent.com/256028/246104618-9f658fd0-17d0-43bd-9e15-8d66b9461a67.png" ],
+            "value":"Starting from 2.4.172 MISP has support for multi-factor authentication. Install the Composer libraries and then enable it under your profile settings. Enforce it system-wide with 'MISP.totp_required'."
+        },        
+        {
+            "timestamp": "20230608",
             "category": "Administration",
             "tags": ["dashboard", "users", "audit"],
             "refs": [ ],
             "screenshots": [ "https://user-images.githubusercontent.com/256028/244464361-34f7ca5f-5f23-4972-a9df-d66a0dbb1b85.png" ],
             "value":"The MISP dashboard (since v2.4.171) has new widgets allowing you to monitor the use of API keys, user logins and user creation."
-        },        
+        },
         {
             "timestamp": "20230331",
             "category": "Threatintel",
