@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20230707 **Administration** *sharing* *sharingroups* *distribution* 
+
+>Sharing group blueprints allow (1) you to create or update sharing groups based on a set of criteria (in JSON) without having to manually add organisations. Update sharing groups with one click of a button (2)!
+
+![](https://user-images.githubusercontent.com/256028/251088827-1b8c7d89-749b-4cbe-afe2-1d557b2295a4.png)![](https://user-images.githubusercontent.com/256028/251088834-8b53be7f-d413-4dec-88f1-67dbaaf124dd.png) 
+
+
+
+*** 
+
+
 20230615 **Administration** *security* *users* *audit* *mfa* 
 
 >Starting from 2.4.172 MISP has support for multi-factor authentication. Install the Composer libraries and then enable it under your profile settings. Enforce it system-wide with 'MISP.totp_required'.
