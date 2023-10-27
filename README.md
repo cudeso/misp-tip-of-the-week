@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20231030 **Threatintel** *synced servers* *correlation* *pivoting* *enrichment* *feeds* *overlap* *distribution* 
+
+>The remote (sync) server cache feature allows you to build a cache of events of remote MISP servers, without actually importing them. This works similar as MISP feeds, including pick&choose events to import.
+
+![](https://user-images.githubusercontent.com/256028/278759279-b54999cd-79b1-4e3f-98a1-4a4e53fea297.png)![](https://user-images.githubusercontent.com/256028/278759282-88cbd47d-337b-4365-ac2c-05641b4bfd93.png)![](https://user-images.githubusercontent.com/256028/278759284-31d19b75-9a95-4864-83c4-af61d21ab0bf.png)![](https://user-images.githubusercontent.com/256028/278759291-875219a3-7e4c-427c-8df1-4b94f0e0a0c4.png) 
+
+
+
+*** 
+
+
 20230707 **Administration** *sharing* *sharingroups* *distribution* 
 
 >Sharing group blueprints allow (1) you to create or update sharing groups based on a set of criteria (in JSON) without having to manually add organisations. Update sharing groups with one click of a button (2)!
