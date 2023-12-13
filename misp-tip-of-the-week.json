@@ -4,6 +4,16 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20231215",
+            "category": "Administration",
+            "tags": ["synced servers", "sharing", "tags", "distribution"],
+            "refs": [ ],
+            "screenshots": [ "https://user-images.githubusercontent.com/256028/290109933-267ad815-8501-4d90-a49b-67bc304ab15b.png",
+                             "https://user-images.githubusercontent.com/256028/290109940-5461af1f-734a-43f1-9bec-cc9b512e5cbf.png"
+                            ],
+            "value":"When you set a 'Remote MISP server' as an internal instance it allows you to transfer local tags (next to global tags) when synchronising events. Make sure 'MISP.host_org_id' is set and check 'Internal instance'. An ideal option for organisations running multiple MISPs."
+        },        
+        {
             "timestamp": "20231030",
             "category": "Threatintel",
             "tags": ["synced servers", "correlation", "pivoting", "enrichment", "feeds", "overlap", "distribution"],
@@ -13,7 +23,7 @@
                              "https://user-images.githubusercontent.com/256028/278759284-31d19b75-9a95-4864-83c4-af61d21ab0bf.png",
                              "https://user-images.githubusercontent.com/256028/278759291-875219a3-7e4c-427c-8df1-4b94f0e0a0c4.png" ],
             "value":"The remote (sync) server cache feature allows you to build a cache of events of remote MISP servers, without actually importing them. This works similar as MISP feeds, including pick&choose events to import."
-        },        
+        },
         {
             "timestamp": "20230707",
             "category": "Administration",

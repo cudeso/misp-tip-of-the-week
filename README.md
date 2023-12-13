@@ -8,6 +8,17 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20231215 **Administration** *synced servers* *sharing* *tags* *distribution* 
+
+>When you set a 'Remote MISP server' as an internal instance it allows you to transfer local tags (next to global tags) when synchronising events. Make sure 'MISP.host_org_id' is set and check 'Internal instance'. An ideal option for organisations running multiple MISPs.
+
+![](https://user-images.githubusercontent.com/256028/290109933-267ad815-8501-4d90-a49b-67bc304ab15b.png)![](https://user-images.githubusercontent.com/256028/290109940-5461af1f-734a-43f1-9bec-cc9b512e5cbf.png) 
+
+
+
+*** 
+
+
 20231030 **Threatintel** *synced servers* *correlation* *pivoting* *enrichment* *feeds* *overlap* *distribution* 
 
 >The remote (sync) server cache feature allows you to build a cache of events of remote MISP servers, without actually importing them. This works similar as MISP feeds, including pick&choose events to import.
