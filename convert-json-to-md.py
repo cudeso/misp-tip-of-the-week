@@ -66,7 +66,7 @@ try:
             refs = refs + "[{}]({}) \n".format(t, t)
         screenshots = ""
         for t in el["screenshots"]:
-            screenshots = screenshots + "![]({})".format(t, t)            
+            screenshots = screenshots + "![]({}) \n".format(t, t)            
         tags = ""
         for t in el["tags"]:
             tags = tags + "*{}* ".format(t)

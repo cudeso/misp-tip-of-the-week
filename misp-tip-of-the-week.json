@@ -4,6 +4,17 @@
     "author": "Koen Van Impe - cudeso.be",
     "entry": [
         {
+            "timestamp": "20240213",
+            "category": "Administration",
+            "tags": ["sso", "azure", "usermanagement"],
+            "refs": [ ],
+            "screenshots": [ "https://private-user-images.githubusercontent.com/256028/304449346-9f4b1fd1-9a08-499a-84e1-afd051d9b813.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc4MzU5NzUsIm5iZiI6MTcwNzgzNTY3NSwicGF0aCI6Ii8yNTYwMjgvMzA0NDQ5MzQ2LTlmNGIxZmQxLTlhMDgtNDk5YS04NGUxLWFmZDA1MWQ5YjgxMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxM1QxNDQ3NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01MjgxZDkyNmU1MzgzNWMzNTk4MWY3Y2ZiY2ZhZTIwOTk1MjMwMDZlZDUwMTQ1YjExMTAzM2Q1ZmNmMDMzMjM3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.waSs-7V_rXotjJ_irw5-BBzRY8K4iHv_-o1bAHyoa_w",
+                             "https://private-user-images.githubusercontent.com/256028/304449354-b9bd9c00-cf82-4b5f-9944-e2a02dcd84e8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc4MzU5NzUsIm5iZiI6MTcwNzgzNTY3NSwicGF0aCI6Ii8yNTYwMjgvMzA0NDQ5MzU0LWI5YmQ5YzAwLWNmODItNGI1Zi05OTQ0LWUyYTAyZGNkODRlOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxM1QxNDQ3NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05OWYxZDg0NDc2ZTI2ZTU0MWI3NGVjNWVhZmIyN2U3MjVlZTYwN2ViMzY0MGRjZTY5YWMzMDEyODFjY2ZhMTkyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.qmqkqgZpoI5VdJt3Ev22ss1Afc8uju33APbEWPYw0VA",
+                             "https://private-user-images.githubusercontent.com/256028/304450803-7ec53a13-582c-49ec-9acd-b736e0e32312.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc4MzYyNDYsIm5iZiI6MTcwNzgzNTk0NiwicGF0aCI6Ii8yNTYwMjgvMzA0NDUwODAzLTdlYzUzYTEzLTU4MmMtNDllYy05YWNkLWI3MzZlMGUzMjMxMi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMjEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDIxM1QxNDUyMjZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ODZiODY2MTBkYmZiYzZkMWU2MDcyNWNiZjc1YmU3ZjUyZmNhOTlkOTVmY2M3Nzg3MTUwMGRiYjk1MjdhZWY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.SzGOgOlCUwibLqPw9hSjYueDhY4-Kiagu6fMh4pMEkA"
+                            ],
+            "value":"MISP supports SSO with Entra-ID (Azure AD) https://github.com/MISP/MISP/tree/2.4/app/Plugin/AadAuth . Don't forget to use 'Delegated permissions' (instead of Application permissions) when assigning the API permissions of the Azure App."
+        },        
+        {
             "timestamp": "20231215",
             "category": "Administration",
             "tags": ["synced servers", "sharing", "tags", "distribution"],
@@ -12,7 +23,7 @@
                              "https://user-images.githubusercontent.com/256028/290109940-5461af1f-734a-43f1-9bec-cc9b512e5cbf.png"
                             ],
             "value":"When you set a 'Remote MISP server' as an internal instance it allows you to transfer local tags (next to global tags) when synchronising events. Make sure 'MISP.host_org_id' is set and check 'Internal instance'. An ideal option for organisations running multiple MISPs."
-        },        
+        },
         {
             "timestamp": "20231030",
             "category": "Threatintel",
