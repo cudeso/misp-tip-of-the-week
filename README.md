@@ -8,6 +8,19 @@ Do you want to **contribute**? [Suggest a tip](https://github.com/cudeso/misp-ti
 # Tips of the Week
 
 
+20240402 **Administration** *server* *sync* *remoteserver* 
+
+>Confused about the statuses returned by MISP remote servers? This small mindmap clarifies them. You can also display the status as a widget in the MISP dashboard.
+
+![](https://private-user-images.githubusercontent.com/256028/318776559-0f77ff46-5c98-4101-accf-df1cade70d88.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNjE1NDksIm5iZiI6MTcxMjA2MTI0OSwicGF0aCI6Ii8yNTYwMjgvMzE4Nzc2NTU5LTBmNzdmZjQ2LTVjOTgtNDEwMS1hY2NmLWRmMWNhZGU3MGQ4OC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwMlQxMjM0MDlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYWUxOThmNWYzZjdiMTRmZjNmNGIxMTM5NWVmNmVjM2E2NDcxMWJjYjJlNTc5YjJlNjRjODdmMjIwOTk1ZjlkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.44cU8C23x4e_SyDsGx2K2hRRANHqJabpkpO-O9ziyN4) 
+![](https://private-user-images.githubusercontent.com/256028/318779106-abf14d31-05bb-4a13-88fb-46ed1ee94531.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIwNjE1NTksIm5iZiI6MTcxMjA2MTI1OSwicGF0aCI6Ii8yNTYwMjgvMzE4Nzc5MTA2LWFiZjE0ZDMxLTA1YmItNGExMy04OGZiLTQ2ZWQxZWU5NDUzMS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwMlQxMjM0MTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NjMzYzNjMzAwYmQzZDc0ZmY4MjM1YmJlNDc0M2YxNmNmNjk5MTIxOGFlZjJjYzFkNTY5ZjA2MmViNWIxZGY4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.EFrQA9YuuZ0kVQElFtB9JTKsI0u1HokBcGfGcg3emys) 
+ 
+
+
+
+*** 
+
+
 20240213 **Administration** *sso* *azure* *usermanagement* 
 
 >MISP supports SSO with Entra-ID (Azure AD) https://github.com/MISP/MISP/tree/2.4/app/Plugin/AadAuth . Don't forget to use 'Delegated permissions' (instead of Application permissions) when assigning the API permissions of the Azure App.
